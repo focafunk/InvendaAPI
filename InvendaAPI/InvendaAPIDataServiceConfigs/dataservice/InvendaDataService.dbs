@@ -1,0 +1,91 @@
+<data name="InvendaDataService" serviceNamespace="" serviceGroup="" enableBoxcarring="true" transports="http https" enableBatchRequests="true">
+  <resource method="POST" path="/rawprice">
+    <description />
+    <call-query href="setRawPrice">
+      <with-param name="rere_id" query-param="rere_id" />
+      <with-param name="upc" query-param="upc" />
+      <with-param name="upc_completo" query-param="upc_completo" />
+      <with-param name="item_desc" query-param="item_desc" />
+      <with-param name="quantity" query-param="quantity" />
+      <with-param name="measurement_unit" query-param="measurement_unit" />
+      <with-param name="price" query-param="price" />
+      <with-param name="price_unit" query-param="price_unit" />
+      <with-param name="offer_price" query-param="offer_price" />
+      <with-param name="orig_price" query-param="orig_price" />
+      <with-param name="currency" query-param="currency" />
+      <with-param name="country" query-param="country" />
+      <with-param name="serial_number" query-param="serial_number" />
+      <with-param name="start_date" query-param="start_date" />
+      <with-param name="end_date" query-param="end_date" />
+      <with-param name="stock_alert" query-param="stock_alert" />
+      <with-param name="tags" query-param="tags" />
+      <with-param name="sponsored" query-param="sponsored" />
+      <with-param name="stars" query-param="stars" />
+      <with-param name="reviews" query-param="reviews" />
+      <with-param name="data1_flx" query-param="data1_flx" />
+      <with-param name="data2_flx" query-param="data2_flx" />
+      <with-param name="data3_flx" query-param="data3_flx" />
+      <with-param name="data4_flx" query-param="data4_flx" />
+      <with-param name="data5_flx" query-param="data5_flx" />
+      <with-param name="data6_flx" query-param="data6_flx" />
+    </call-query>
+  </resource>
+  <query id="setRawPrice" useConfig="InvendaDataSource" returnGeneratedKeys="true" keyColumns="rapr_id">
+    <sql>
+ exec processRawPrice 
+:upc,
+:item_desc,
+:quantity,
+:measurement_unit,
+:price ,
+:price_unit,
+:offer_price,
+:orig_price,
+:currency,
+:country,
+:serial_number,
+:start_date,
+:end_date,
+:stock_alert,
+:tags,
+:sponsored,
+:stars,
+:reviews,
+:data1_flx,
+:data2_flx,
+:data3_flx,
+:data4_flx,
+:data5_flx,
+:data6_flx,
+:rere_id</sql>
+    <param name="rere_id" paramType="SCALAR" sqlType="STRING" />
+    <param name="upc" paramType="SCALAR" sqlType="STRING" />
+    <param name="upc_completo" paramType="SCALAR" sqlType="STRING" />
+    <param name="item_desc" paramType="SCALAR" sqlType="STRING" />
+    <param name="quantity" paramType="SCALAR" sqlType="STRING" />
+    <param name="measurement_unit" paramType="SCALAR" sqlType="STRING" />
+    <param name="price" paramType="SCALAR" sqlType="STRING" />
+    <param name="price_unit" paramType="SCALAR" sqlType="STRING" />
+    <param name="offer_price" paramType="SCALAR" sqlType="STRING" />
+    <param name="orig_price" paramType="SCALAR" sqlType="STRING" />
+    <param name="currency" paramType="SCALAR" sqlType="STRING" />
+    <param name="country" paramType="SCALAR" sqlType="STRING" />
+    <param name="serial_number" paramType="SCALAR" sqlType="STRING" />
+    <param name="start_date" paramType="SCALAR" sqlType="STRING" />
+    <param name="end_date" paramType="SCALAR" sqlType="STRING" />
+    <param name="stock_alert" paramType="SCALAR" sqlType="STRING" />
+    <param name="tags" paramType="SCALAR" sqlType="STRING" />
+    <param name="sponsored" paramType="SCALAR" sqlType="STRING" />
+    <param name="stars" paramType="SCALAR" sqlType="STRING" />
+    <param name="reviews" paramType="SCALAR" sqlType="STRING" />
+    <param name="data1_flx" paramType="SCALAR" sqlType="STRING" />
+    <param name="data2_flx" paramType="SCALAR" sqlType="STRING" />
+    <param name="data3_flx" paramType="SCALAR" sqlType="STRING" />
+    <param name="data4_flx" paramType="SCALAR" sqlType="STRING" />
+    <param name="data5_flx" paramType="SCALAR" sqlType="STRING" />
+    <param name="data6_flx" paramType="SCALAR" sqlType="STRING" />
+  </query>
+  <config id="InvendaDataSource">
+    <property name="carbon_datasource_name">InvendaDataSource</property>
+  </config>
+</data>

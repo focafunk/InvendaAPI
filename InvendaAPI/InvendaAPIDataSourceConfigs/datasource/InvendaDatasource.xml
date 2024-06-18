@@ -1,0 +1,15 @@
+<datasource>
+  <name>InvendaDataSource</name>
+  <description>InvendaDataSource</description>
+  <jndiConfig useDataSourceFactory="false">
+    <name>InvendaDataSourceJDNI</name>
+  </jndiConfig>
+  <definition type="RDBMS">
+    <configuration>
+      <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+      <url>jdbc:sqlserver://;serverName=34.130.64.166;port=1933;databaseName=invenda_t;encrypt=true;trustServerCertificate=true</url>
+      <username>sa</username>
+      <password>rtools82035..</password>
+    </configuration>
+  </definition>
+</datasource>

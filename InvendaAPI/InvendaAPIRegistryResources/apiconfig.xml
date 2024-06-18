@@ -1,0 +1,7 @@
+<!-- ?xml version="1.0" encoding="UTF-8"? -->
+<api>
+	<baseurl>https://api.invenda.io/datalake/api</baseurl>
+	<user>mars.ricardo.user1</user>
+	<password>yN3wWHwa.1</password>
+	<subscription-key>10f5a6c233854140bb9c538ef64a967b</subscription-key>
+</api>
