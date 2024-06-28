@@ -1,0 +1,61 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+var count_i_data_624e6775_f1d9_40a3_9660_635f365ac515 = 0;
+var count_i_productSelectionHistory_4ea3b167_2861_4150_8505_5b5b53149cfb_i_data_624e6775_f1d9_40a3_9660_635f365ac515 = 0;
+var count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c_i_data_624e6775_f1d9_40a3_9660_635f365ac515 = 0;
+outputroot =  {};
+outputroot['_post_rawprice_batch_req'] =  {};
+outputroot['_post_rawprice_batch_req']['_post_rawprice'] =  [];
+
+for(i_data_624e6775_f1d9_40a3_9660_635f365ac515 in inputroot.result.data){
+var count_i_productSelectionHistory_4ea3b167_2861_4150_8505_5b5b53149cfb = 0;
+var count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c = 0;
+
+for(i_productSelectionHistory_4ea3b167_2861_4150_8505_5b5b53149cfb in inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].productSelectionHistory){
+
+count_i_productSelectionHistory_4ea3b167_2861_4150_8505_5b5b53149cfb++;
+count_i_productSelectionHistory_4ea3b167_2861_4150_8505_5b5b53149cfb_i_data_624e6775_f1d9_40a3_9660_635f365ac515++;
+}
+
+for(i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c in inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].transactionMetrics.purchasedSingleProducts){
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c] =  {};
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].rere_id = '1';
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].upc = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].productSelectionHistory[i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].productId;
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].item_desc = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].productSelectionHistory[i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].name;
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].quantity = '1';
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].measurement_unit = 'UN';
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].price = (inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].productSelectionHistory[i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].price).toString();
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].currency = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].transactionMetrics.currencyInfo.code;
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].country = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].terminalInfo.locationInfo.countryCode;
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].serial_number = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].terminalInfo.serialNumber;
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].start_date = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].startedAt;
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].end_date = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].endedAt;
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].data1_flx = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].transactionMetrics.purchasedSingleProducts[i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].transactionPaymentMethod;
+outputroot['_post_rawprice_batch_req']['_post_rawprice'][count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c].data6_flx = inputroot.result.data[i_data_624e6775_f1d9_40a3_9660_635f365ac515].id;
+
+count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c++;
+count_i_purchasedSingleProducts_1055b240_c0e8_459a_b60c_06d8232e3d1c_i_data_624e6775_f1d9_40a3_9660_635f365ac515++;
+}
+
+count_i_data_624e6775_f1d9_40a3_9660_635f365ac515++;
+}
+return outputroot;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

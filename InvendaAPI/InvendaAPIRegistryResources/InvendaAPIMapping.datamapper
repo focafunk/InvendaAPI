@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="version" schemaDataType="NUMBER" level="2">
+        <properties key="type" value="number"/>
+        <properties key="id" value="http://wso2jsonschema.org/version"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="isSuccess" schemaDataType="BOOLEAN" level="2">
+        <properties key="type" value="boolean"/>
+        <properties key="id" value="http://wso2jsonschema.org/isSuccess"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="statusCode" schemaDataType="NUMBER" level="2">
+        <properties key="type" value="number"/>
+        <properties key="id" value="http://wso2jsonschema.org/statusCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="result" schemaDataType="OBJECT" level="2">
+        <node name="currentPage" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/result/currentPage"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="pageSize" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/result/pageSize"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="totalItems" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/result/totalItems"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="totalPages" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/result/totalPages"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="data" level="3">
+          <node name="id" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/id"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.25/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="createdAt" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/createdAt"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="customerId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/customerId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="currencyId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/currencyId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="transactionLanguageId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionLanguageId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="lastTransactionLanguageId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastTransactionLanguageId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="startMethod" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/startMethod"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="changeMode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/changeMode"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="customerDemographic" schemaDataType="OBJECT" level="4">
+            <node name="ageRange" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/customerDemographic/ageRange"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="gender" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/customerDemographic/gender"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="detectedAt" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/customerDemographic/detectedAt"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="demographicProfileId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/customerDemographic/demographicProfileId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/customerDemographic"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="startedAt" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/startedAt"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.13/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="endedAt" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/endedAt"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.14/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="transactionState" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionState"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="lastPlayedVideoProductId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedVideoProductId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="offeredProducts" level="4">
+            <node name="productId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/productId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="name" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/name"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="key" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/key"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="gridCoordinates" schemaDataType="OBJECT" level="5">
+              <node name="row" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/row"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="rowSpan" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/rowSpan"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="column" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/column"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="columnSpan" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/columnSpan"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{row={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/row, type=number}, rowSpan={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/rowSpan, type=number}, column={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/column, type=number}, columnSpan={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/columnSpan, type=number}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="countryCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/countryCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="brand" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0/brand"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="array"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/offeredProducts"/>
+            <properties key="items_id" value="http://wso2jsonschema.org/result/data/0/offeredProducts/0"/>
+            <properties key="items_type" value="object"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="productSelectionHistory" level="4">
+            <node name="productId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="name" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/name"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.3/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="selectedAt" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/selectedAt"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="removedAt" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/removedAt"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="paidAt" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/paidAt"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="deliveredAt" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/deliveredAt"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="dispensedAt" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/dispensedAt"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="price" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/price"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.6/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="positionAtScreen" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/positionAtScreen"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="screenPosition" schemaDataType="OBJECT" level="5">
+              <node name="xAxis" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/xAxis"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="yAxis" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/yAxis"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="channelId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/channelId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="isCombo" schemaDataType="BOOLEAN" level="5">
+              <properties key="type" value="boolean"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/isCombo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productCategoryId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCategoryId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="animated" schemaDataType="BOOLEAN" level="5">
+              <properties key="type" value="boolean"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/animated"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productCommercialInfo" schemaDataType="OBJECT" level="5">
+              <node name="commercialVideoName" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialVideoName"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="commercialInPlaylist" schemaDataType="BOOLEAN" level="6">
+                <properties key="type" value="boolean"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialInPlaylist"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="commercialForThisProductShowingAtTransactionStart" schemaDataType="BOOLEAN" level="6">
+                <properties key="type" value="boolean"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productGridAreaInfo" schemaDataType="OBJECT" level="5">
+              <node name="gridPosition" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridPosition"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="gridWidth" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridWidth"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="gridHeight" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridHeight"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="gridArea" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridArea"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{xAxis={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/xAxis, type=number}, yAxis={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/yAxis, type=number}}"/>
+              <properties key="properties_id" value="{commercialVideoName={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}"/>
+              <properties key="properties_id" value="{gridPosition={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridArea, type=number}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productSelectionType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productSelectionMethod" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionMethod"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="countryCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/countryCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="brand" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/brand"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="array"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory"/>
+            <properties key="items_id" value="http://wso2jsonschema.org/result/data/0/productSelectionHistory/0"/>
+            <properties key="items_type" value="object"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="creditBeforeTransaction" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/creditBeforeTransaction"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="creditAfterTransaction" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/creditAfterTransaction"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="cardCreditBeforeTransaction" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/cardCreditBeforeTransaction"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="cardCreditAfterTransaction" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/cardCreditAfterTransaction"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="paymentDetails" schemaDataType="OBJECT" level="4">
+            <node name="paymentMethod" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentDetails/paymentMethod"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="paymentSubMethod" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentDetails/paymentSubMethod"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="paymentDevice" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentDetails/paymentDevice"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="paymentType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentDetails/paymentType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentDetails"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="transactionMetrics" schemaDataType="OBJECT" level="4">
+            <node name="revenueInfo" schemaDataType="OBJECT" level="5">
+              <node name="revenue" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenue"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="revenueFromChargedAndDeliveredProducts" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedAndDeliveredProducts"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="revenueFromChargedButNotDeliveredProducts" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedButNotDeliveredProducts"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productsCharged" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/productsCharged"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productsDelivered" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/productsDelivered"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="notDeliveredProducts" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/notDeliveredProducts"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productsRemovedFromShoppingCart" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/productsRemovedFromShoppingCart"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="transactionLengthInSeconds" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/transactionLengthInSeconds"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="deliveryLastedInSeconds" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/deliveryLastedInSeconds"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="purchasedSingleProducts" level="5">
+              <node name="productId" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productInternalCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productInternalCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productCategoryId" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCategoryId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productName" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productName"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productBrand" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productBrand"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="countryCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/countryCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productDisplayName" schemaDataType="OBJECT" level="6">
+                <node name="name" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/name"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="translations" level="7">
+                  <node name="languageId" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/languageId"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="value" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/value"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="array"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations"/>
+                  <properties key="items_id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0"/>
+                  <properties key="items_type" value="object"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="properties_id" value="{languageId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/languageId, type=string}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/value, type=string}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="ageRequired" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/ageRequired"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="priceInfo" schemaDataType="OBJECT" level="6">
+                <node name="price" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/price"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="chargedAmount" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/chargedAmount"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="originalPrice" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/originalPrice"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="appliedDiscount" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/appliedDiscount"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="taxRate" schemaDataType="OBJECT" level="7">
+                  <node name="percentage" schemaDataType="NUMBER" level="8">
+                    <properties key="type" value="number"/>
+                    <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/percentage"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="value" schemaDataType="NUMBER" level="8">
+                    <properties key="type" value="number"/>
+                    <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/value"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="properties_id" value="{percentage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/percentage, type=number}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/value, type=number}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="netPrice" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/netPrice"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="deliveryInfo" schemaDataType="OBJECT" level="6">
+                <node name="channelId" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/channelId"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="selectedAt" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/selectedAt"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="dispensedAt" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/dispensedAt"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="deliveredAt" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/deliveredAt"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="parentProductId" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/parentProductId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="animated" schemaDataType="BOOLEAN" level="6">
+                <properties key="type" value="boolean"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/animated"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productCommercialInfo" schemaDataType="OBJECT" level="6">
+                <node name="commercialVideoName" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialVideoName"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="commercialInPlaylist" schemaDataType="BOOLEAN" level="7">
+                  <properties key="type" value="boolean"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialInPlaylist"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="commercialForThisProductShowingAtTransactionStart" schemaDataType="BOOLEAN" level="7">
+                  <properties key="type" value="boolean"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productGridAreaInfo" schemaDataType="OBJECT" level="6">
+                <node name="gridPosition" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridPosition"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="gridWidth" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridWidth"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="gridHeight" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridHeight"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="gridArea" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridArea"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{name={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/name, type=string}, translations={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0, type=object, properties={languageId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/languageId, type=string}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/value, type=string}}}]}}"/>
+                <properties key="properties_id" value="{price={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/price, type=number}, chargedAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/chargedAmount, type=number}, originalPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/originalPrice, type=number}, appliedDiscount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/appliedDiscount, type=number}, taxRate={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate, type=object, properties={percentage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/percentage, type=number}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/value, type=number}}}, netPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/netPrice, type=number}}"/>
+                <properties key="properties_id" value="{channelId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/channelId, type=string}, selectedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/selectedAt, type=string}, dispensedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/dispensedAt, type=string}, deliveredAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/deliveredAt, type=string}}"/>
+                <properties key="properties_id" value="{commercialVideoName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}"/>
+                <properties key="properties_id" value="{gridPosition={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridArea, type=number}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productSelectionType" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionType"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productSelectionMethod" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionMethod"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="productPaymentMethod" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productPaymentMethod"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="transactionPaymentMethod" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/transactionPaymentMethod"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.20/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="array"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts"/>
+              <properties key="items_id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0"/>
+              <properties key="items_type" value="object"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="creditInfo" schemaDataType="OBJECT" level="5">
+              <node name="creditBeforeTransaction" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditBeforeTransaction"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="creditAfterTransaction" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditAfterTransaction"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="cardCreditBeforeTransaction" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditBeforeTransaction"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="cardCreditAfterTransaction" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditAfterTransaction"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="creditUsage" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditUsage"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="usedCreditAmount" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/usedCreditAmount"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="currencyInfo" schemaDataType="OBJECT" level="5">
+              <node name="currencyId" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/currencyId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="code" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/code"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.10/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="symbol" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/symbol"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{revenue={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenue, type=number}, revenueFromChargedAndDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedAndDeliveredProducts, type=number}, revenueFromChargedButNotDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedButNotDeliveredProducts, type=number}}"/>
+              <properties key="properties_id" value="{productId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productId, type=string}, productInternalCode={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productInternalCode, type=string}, productCategoryId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCategoryId, type=string}, productName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productName, type=string}, productBrand={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productBrand, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/countryCode, type=string}, productDisplayName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName, type=object, properties={name={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/name, type=string}, translations={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0, type=object, properties={languageId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/languageId, type=string}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/value, type=string}}}]}}}, ageRequired={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/ageRequired, type=string}, priceInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo, type=object, properties={price={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/price, type=number}, chargedAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/chargedAmount, type=number}, originalPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/originalPrice, type=number}, appliedDiscount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/appliedDiscount, type=number}, taxRate={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate, type=object, properties={percentage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/percentage, type=number}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/value, type=number}}}, netPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/netPrice, type=number}}}, deliveryInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo, type=object, properties={channelId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/channelId, type=string}, selectedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/selectedAt, type=string}, dispensedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/dispensedAt, type=string}, deliveredAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/deliveredAt, type=string}}}, parentProductId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/parentProductId, type=string}, animated={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/animated, type=boolean}, productCommercialInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo, type=object, properties={commercialVideoName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}}, productGridAreaInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo, type=object, properties={gridPosition={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridArea, type=number}}}, productSelectionType={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionType, type=string}, productSelectionMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionMethod, type=string}, productPaymentMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productPaymentMethod, type=string}, transactionPaymentMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/transactionPaymentMethod, type=string}}"/>
+              <properties key="properties_id" value="{creditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditBeforeTransaction, type=number}, creditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditAfterTransaction, type=number}, cardCreditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditBeforeTransaction, type=number}, cardCreditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditAfterTransaction, type=number}, creditUsage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditUsage, type=string}, usedCreditAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/usedCreditAmount, type=number}}"/>
+              <properties key="properties_id" value="{currencyId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/currencyId, type=string}, code={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/code, type=string}, symbol={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/symbol, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="invoicingSystem" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/invoicingSystem"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="calculatedAtTransactionEnd" schemaDataType="BOOLEAN" level="5">
+              <properties key="type" value="boolean"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/calculatedAtTransactionEnd"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="utcOffsetInHours" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics/utcOffsetInHours"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/transactionMetrics"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="terminalInfo" schemaDataType="OBJECT" level="4">
+            <node name="id" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/id"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="name" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/name"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="bodySerialNumber" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/bodySerialNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="serialNumber" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/serialNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.12/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="locationInfo" schemaDataType="OBJECT" level="5">
+              <node name="city" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/city"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="street" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/street"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="houseNumber" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/houseNumber"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="postalCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/postalCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="location" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/location"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="locationType" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/locationType"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="countryCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/countryCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.11/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{city={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/city, type=string}, street={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/street, type=string}, houseNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/houseNumber, type=string}, postalCode={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/postalCode, type=string}, location={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/location, type=string}, locationType={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/locationType, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/countryCode, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/terminalInfo"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="paymentButtonPressed" schemaDataType="BOOLEAN" level="4">
+            <properties key="type" value="boolean"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentButtonPressed"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="utcOffsetInHours" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/utcOffsetInHours"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="localStartedAt" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/localStartedAt"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="localEndedAt" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/localEndedAt"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="lastPlayedAdvertisementInfo" schemaDataType="OBJECT" level="4">
+            <node name="advertisementType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="playerType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/playerType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="advertisementId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="advertisementName" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementName"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="advertisementProviderId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="advertisementProviderName" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderName"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="mediaType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="mediaFileName" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaFileName"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="productId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/productId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="mediaId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="paymentAttempts" level="4">
+            <node name="paymentAttemptId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="startedAt" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentAttempts/0/startedAt"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="paymentType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="endedAt" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentAttempts/0/endedAt"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="paymentAttemptResult" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptResult"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="array"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/paymentAttempts"/>
+            <properties key="items_id" value="http://wso2jsonschema.org/result/data/0/paymentAttempts/0"/>
+            <properties key="items_type" value="object"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="invoicingChargedDetails" level="4">
+            <node name="transactionProductId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/transactionProductId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="chargedAmount" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/chargedAmount"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="paymentType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/paymentType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="array"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/invoicingChargedDetails"/>
+            <properties key="items_id" value="http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0"/>
+            <properties key="items_type" value="object"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{ageRange={id=http://wso2jsonschema.org/result/data/0/customerDemographic/ageRange, type=string}, gender={id=http://wso2jsonschema.org/result/data/0/customerDemographic/gender, type=string}, detectedAt={id=http://wso2jsonschema.org/result/data/0/customerDemographic/detectedAt, type=string}, demographicProfileId={id=http://wso2jsonschema.org/result/data/0/customerDemographic/demographicProfileId, type=string}}"/>
+            <properties key="properties_id" value="{productId={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/productId, type=string}, name={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/name, type=string}, key={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/key, type=string}, gridCoordinates={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates, type=object, properties={row={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/row, type=number}, rowSpan={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/rowSpan, type=number}, column={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/column, type=number}, columnSpan={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/columnSpan, type=number}}}, countryCode={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/countryCode, type=string}, brand={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/brand, type=string}}"/>
+            <properties key="properties_id" value="{productId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productId, type=string}, name={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/name, type=string}, selectedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/selectedAt, type=string}, removedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/removedAt, type=string}, paidAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/paidAt, type=string}, deliveredAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/deliveredAt, type=string}, dispensedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/dispensedAt, type=string}, price={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/price, type=number}, positionAtScreen={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/positionAtScreen, type=string}, screenPosition={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition, type=object, properties={xAxis={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/xAxis, type=number}, yAxis={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/yAxis, type=number}}}, channelId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/channelId, type=string}, isCombo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/isCombo, type=boolean}, productCategoryId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCategoryId, type=string}, animated={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/animated, type=boolean}, productCommercialInfo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo, type=object, properties={commercialVideoName={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}}, productGridAreaInfo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo, type=object, properties={gridPosition={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridArea, type=number}}}, productSelectionType={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionType, type=string}, productSelectionMethod={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionMethod, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/countryCode, type=string}, brand={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/brand, type=string}}"/>
+            <properties key="properties_id" value="{paymentMethod={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentMethod, type=string}, paymentSubMethod={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentSubMethod, type=string}, paymentDevice={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentDevice, type=string}, paymentType={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentType, type=string}}"/>
+            <properties key="properties_id" value="{revenueInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo, type=object, properties={revenue={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenue, type=number}, revenueFromChargedAndDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedAndDeliveredProducts, type=number}, revenueFromChargedButNotDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedButNotDeliveredProducts, type=number}}}, productsCharged={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsCharged, type=number}, productsDelivered={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsDelivered, type=number}, notDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/notDeliveredProducts, type=number}, productsRemovedFromShoppingCart={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsRemovedFromShoppingCart, type=number}, transactionLengthInSeconds={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/transactionLengthInSeconds, type=number}, deliveryLastedInSeconds={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/deliveryLastedInSeconds, type=number}, purchasedSingleProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0, type=object, properties={productId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productId, type=string}, productInternalCode={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productInternalCode, type=string}, productCategoryId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCategoryId, type=string}, productName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productName, type=string}, productBrand={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productBrand, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/countryCode, type=string}, productDisplayName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName, type=object, properties={name={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/name, type=string}, translations={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0, type=object, properties={languageId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/languageId, type=string}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/value, type=string}}}]}}}, ageRequired={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/ageRequired, type=string}, priceInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo, type=object, properties={price={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/price, type=number}, chargedAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/chargedAmount, type=number}, originalPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/originalPrice, type=number}, appliedDiscount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/appliedDiscount, type=number}, taxRate={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate, type=object, properties={percentage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/percentage, type=number}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/value, type=number}}}, netPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/netPrice, type=number}}}, deliveryInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo, type=object, properties={channelId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/channelId, type=string}, selectedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/selectedAt, type=string}, dispensedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/dispensedAt, type=string}, deliveredAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/deliveredAt, type=string}}}, parentProductId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/parentProductId, type=string}, animated={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/animated, type=boolean}, productCommercialInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo, type=object, properties={commercialVideoName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}}, productGridAreaInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo, type=object, properties={gridPosition={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridArea, type=number}}}, productSelectionType={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionType, type=string}, productSelectionMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionMethod, type=string}, productPaymentMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productPaymentMethod, type=string}, transactionPaymentMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/transactionPaymentMethod, type=string}}}]}, creditInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo, type=object, properties={creditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditBeforeTransaction, type=number}, creditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditAfterTransaction, type=number}, cardCreditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditBeforeTransaction, type=number}, cardCreditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditAfterTransaction, type=number}, creditUsage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditUsage, type=string}, usedCreditAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/usedCreditAmount, type=number}}}, currencyInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo, type=object, properties={currencyId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/currencyId, type=string}, code={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/code, type=string}, symbol={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/symbol, type=string}}}, invoicingSystem={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/invoicingSystem, type=string}, calculatedAtTransactionEnd={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/calculatedAtTransactionEnd, type=boolean}, utcOffsetInHours={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/utcOffsetInHours, type=number}}"/>
+            <properties key="properties_id" value="{id={id=http://wso2jsonschema.org/result/data/0/terminalInfo/id, type=string}, name={id=http://wso2jsonschema.org/result/data/0/terminalInfo/name, type=string}, bodySerialNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/bodySerialNumber, type=string}, serialNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/serialNumber, type=string}, locationInfo={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo, type=object, properties={city={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/city, type=string}, street={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/street, type=string}, houseNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/houseNumber, type=string}, postalCode={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/postalCode, type=string}, location={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/location, type=string}, locationType={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/locationType, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/countryCode, type=string}}}}"/>
+            <properties key="properties_id" value="{advertisementType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementType, type=string}, playerType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/playerType, type=string}, advertisementId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementId, type=string}, advertisementName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementName, type=string}, advertisementProviderId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderId, type=string}, advertisementProviderName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderName, type=string}, mediaType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaType, type=string}, mediaFileName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaFileName, type=string}, productId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/productId, type=string}, mediaId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaId, type=string}}"/>
+            <properties key="properties_id" value="{paymentAttemptId={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptId, type=string}, startedAt={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/startedAt, type=string}, paymentType={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentType, type=string}, endedAt={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/endedAt, type=string}, paymentAttemptResult={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptResult, type=string}}"/>
+            <properties key="properties_id" value="{transactionProductId={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/transactionProductId, type=string}, chargedAmount={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/chargedAmount, type=number}, paymentType={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/paymentType, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="syncedAt" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/syncedAt"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="installationStatus" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/data/0/installationStatus"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="array"/>
+          <properties key="id" value="http://wso2jsonschema.org/result/data"/>
+          <properties key="items_id" value="http://wso2jsonschema.org/result/data/0"/>
+          <properties key="items_type" value="object"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="links" schemaDataType="OBJECT" level="3">
+          <node name="self" schemaDataType="OBJECT" level="4">
+            <node name="href" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/links/self/href"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/links/self"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="prev" schemaDataType="OBJECT" level="4">
+            <node name="href" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/links/prev/href"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/links/prev"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="next" schemaDataType="OBJECT" level="4">
+            <node name="href" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/result/links/next/href"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/result/links/next"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{href={id=http://wso2jsonschema.org/result/links/self/href, type=string}}"/>
+            <properties key="properties_id" value="{href={id=http://wso2jsonschema.org/result/links/prev/href, type=string}}"/>
+            <properties key="properties_id" value="{href={id=http://wso2jsonschema.org/result/links/next/href, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/result/links"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{id={id=http://wso2jsonschema.org/result/data/0/id, type=string}, createdAt={id=http://wso2jsonschema.org/result/data/0/createdAt, type=string}, customerId={id=http://wso2jsonschema.org/result/data/0/customerId, type=string}, currencyId={id=http://wso2jsonschema.org/result/data/0/currencyId, type=string}, transactionLanguageId={id=http://wso2jsonschema.org/result/data/0/transactionLanguageId, type=string}, lastTransactionLanguageId={id=http://wso2jsonschema.org/result/data/0/lastTransactionLanguageId, type=string}, startMethod={id=http://wso2jsonschema.org/result/data/0/startMethod, type=string}, changeMode={id=http://wso2jsonschema.org/result/data/0/changeMode, type=string}, customerDemographic={id=http://wso2jsonschema.org/result/data/0/customerDemographic, type=object, properties={ageRange={id=http://wso2jsonschema.org/result/data/0/customerDemographic/ageRange, type=string}, gender={id=http://wso2jsonschema.org/result/data/0/customerDemographic/gender, type=string}, detectedAt={id=http://wso2jsonschema.org/result/data/0/customerDemographic/detectedAt, type=string}, demographicProfileId={id=http://wso2jsonschema.org/result/data/0/customerDemographic/demographicProfileId, type=string}}}, startedAt={id=http://wso2jsonschema.org/result/data/0/startedAt, type=string}, endedAt={id=http://wso2jsonschema.org/result/data/0/endedAt, type=string}, transactionState={id=http://wso2jsonschema.org/result/data/0/transactionState, type=string}, lastPlayedVideoProductId={id=http://wso2jsonschema.org/result/data/0/lastPlayedVideoProductId, type=string}, offeredProducts={id=http://wso2jsonschema.org/result/data/0/offeredProducts, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/offeredProducts/0, type=object, properties={productId={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/productId, type=string}, name={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/name, type=string}, key={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/key, type=string}, gridCoordinates={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates, type=object, properties={row={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/row, type=number}, rowSpan={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/rowSpan, type=number}, column={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/column, type=number}, columnSpan={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/columnSpan, type=number}}}, countryCode={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/countryCode, type=string}, brand={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/brand, type=string}}}]}, productSelectionHistory={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0, type=object, properties={productId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productId, type=string}, name={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/name, type=string}, selectedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/selectedAt, type=string}, removedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/removedAt, type=string}, paidAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/paidAt, type=string}, deliveredAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/deliveredAt, type=string}, dispensedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/dispensedAt, type=string}, price={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/price, type=number}, positionAtScreen={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/positionAtScreen, type=string}, screenPosition={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition, type=object, properties={xAxis={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/xAxis, type=number}, yAxis={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/yAxis, type=number}}}, channelId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/channelId, type=string}, isCombo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/isCombo, type=boolean}, productCategoryId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCategoryId, type=string}, animated={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/animated, type=boolean}, productCommercialInfo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo, type=object, properties={commercialVideoName={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}}, productGridAreaInfo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo, type=object, properties={gridPosition={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridArea, type=number}}}, productSelectionType={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionType, type=string}, productSelectionMethod={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionMethod, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/countryCode, type=string}, brand={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/brand, type=string}}}]}, creditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/creditBeforeTransaction, type=number}, creditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/creditAfterTransaction, type=number}, cardCreditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/cardCreditBeforeTransaction, type=number}, cardCreditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/cardCreditAfterTransaction, type=number}, paymentDetails={id=http://wso2jsonschema.org/result/data/0/paymentDetails, type=object, properties={paymentMethod={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentMethod, type=string}, paymentSubMethod={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentSubMethod, type=string}, paymentDevice={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentDevice, type=string}, paymentType={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentType, type=string}}}, transactionMetrics={id=http://wso2jsonschema.org/result/data/0/transactionMetrics, type=object, properties={revenueInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo, type=object, properties={revenue={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenue, type=number}, revenueFromChargedAndDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedAndDeliveredProducts, type=number}, revenueFromChargedButNotDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedButNotDeliveredProducts, type=number}}}, productsCharged={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsCharged, type=number}, productsDelivered={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsDelivered, type=number}, notDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/notDeliveredProducts, type=number}, productsRemovedFromShoppingCart={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsRemovedFromShoppingCart, type=number}, transactionLengthInSeconds={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/transactionLengthInSeconds, type=number}, deliveryLastedInSeconds={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/deliveryLastedInSeconds, type=number}, purchasedSingleProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0, type=object, properties={productId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productId, type=string}, productInternalCode={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productInternalCode, type=string}, productCategoryId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCategoryId, type=string}, productName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productName, type=string}, productBrand={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productBrand, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/countryCode, type=string}, productDisplayName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName, type=object, properties={name={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/name, type=string}, translations={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0, type=object, properties={languageId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/languageId, type=string}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/value, type=string}}}]}}}, ageRequired={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/ageRequired, type=string}, priceInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo, type=object, properties={price={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/price, type=number}, chargedAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/chargedAmount, type=number}, originalPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/originalPrice, type=number}, appliedDiscount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/appliedDiscount, type=number}, taxRate={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate, type=object, properties={percentage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/percentage, type=number}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/value, type=number}}}, netPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/netPrice, type=number}}}, deliveryInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo, type=object, properties={channelId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/channelId, type=string}, selectedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/selectedAt, type=string}, dispensedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/dispensedAt, type=string}, deliveredAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/deliveredAt, type=string}}}, parentProductId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/parentProductId, type=string}, animated={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/animated, type=boolean}, productCommercialInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo, type=object, properties={commercialVideoName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}}, productGridAreaInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo, type=object, properties={gridPosition={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridArea, type=number}}}, productSelectionType={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionType, type=string}, productSelectionMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionMethod, type=string}, productPaymentMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productPaymentMethod, type=string}, transactionPaymentMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/transactionPaymentMethod, type=string}}}]}, creditInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo, type=object, properties={creditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditBeforeTransaction, type=number}, creditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditAfterTransaction, type=number}, cardCreditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditBeforeTransaction, type=number}, cardCreditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditAfterTransaction, type=number}, creditUsage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditUsage, type=string}, usedCreditAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/usedCreditAmount, type=number}}}, currencyInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo, type=object, properties={currencyId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/currencyId, type=string}, code={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/code, type=string}, symbol={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/symbol, type=string}}}, invoicingSystem={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/invoicingSystem, type=string}, calculatedAtTransactionEnd={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/calculatedAtTransactionEnd, type=boolean}, utcOffsetInHours={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/utcOffsetInHours, type=number}}}, terminalInfo={id=http://wso2jsonschema.org/result/data/0/terminalInfo, type=object, properties={id={id=http://wso2jsonschema.org/result/data/0/terminalInfo/id, type=string}, name={id=http://wso2jsonschema.org/result/data/0/terminalInfo/name, type=string}, bodySerialNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/bodySerialNumber, type=string}, serialNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/serialNumber, type=string}, locationInfo={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo, type=object, properties={city={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/city, type=string}, street={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/street, type=string}, houseNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/houseNumber, type=string}, postalCode={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/postalCode, type=string}, location={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/location, type=string}, locationType={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/locationType, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/countryCode, type=string}}}}}, paymentButtonPressed={id=http://wso2jsonschema.org/result/data/0/paymentButtonPressed, type=boolean}, utcOffsetInHours={id=http://wso2jsonschema.org/result/data/0/utcOffsetInHours, type=number}, localStartedAt={id=http://wso2jsonschema.org/result/data/0/localStartedAt, type=string}, localEndedAt={id=http://wso2jsonschema.org/result/data/0/localEndedAt, type=string}, lastPlayedAdvertisementInfo={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo, type=object, properties={advertisementType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementType, type=string}, playerType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/playerType, type=string}, advertisementId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementId, type=string}, advertisementName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementName, type=string}, advertisementProviderId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderId, type=string}, advertisementProviderName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderName, type=string}, mediaType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaType, type=string}, mediaFileName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaFileName, type=string}, productId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/productId, type=string}, mediaId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaId, type=string}}}, paymentAttempts={id=http://wso2jsonschema.org/result/data/0/paymentAttempts, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0, type=object, properties={paymentAttemptId={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptId, type=string}, startedAt={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/startedAt, type=string}, paymentType={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentType, type=string}, endedAt={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/endedAt, type=string}, paymentAttemptResult={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptResult, type=string}}}]}, invoicingChargedDetails={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0, type=object, properties={transactionProductId={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/transactionProductId, type=string}, chargedAmount={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/chargedAmount, type=number}, paymentType={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/paymentType, type=string}}}]}, syncedAt={id=http://wso2jsonschema.org/result/data/0/syncedAt, type=string}, installationStatus={id=http://wso2jsonschema.org/result/data/0/installationStatus, type=string}}"/>
+          <properties key="properties_id" value="{self={id=http://wso2jsonschema.org/result/links/self, type=object, properties={href={id=http://wso2jsonschema.org/result/links/self/href, type=string}}}, prev={id=http://wso2jsonschema.org/result/links/prev, type=object, properties={href={id=http://wso2jsonschema.org/result/links/prev/href, type=string}}}, next={id=http://wso2jsonschema.org/result/links/next, type=object, properties={href={id=http://wso2jsonschema.org/result/links/next/href, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/result"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{currentPage={id=http://wso2jsonschema.org/result/currentPage, type=number}, pageSize={id=http://wso2jsonschema.org/result/pageSize, type=number}, totalItems={id=http://wso2jsonschema.org/result/totalItems, type=number}, totalPages={id=http://wso2jsonschema.org/result/totalPages, type=number}, data={id=http://wso2jsonschema.org/result/data, type=array, items=[{id=http://wso2jsonschema.org/result/data/0, type=object, properties={id={id=http://wso2jsonschema.org/result/data/0/id, type=string}, createdAt={id=http://wso2jsonschema.org/result/data/0/createdAt, type=string}, customerId={id=http://wso2jsonschema.org/result/data/0/customerId, type=string}, currencyId={id=http://wso2jsonschema.org/result/data/0/currencyId, type=string}, transactionLanguageId={id=http://wso2jsonschema.org/result/data/0/transactionLanguageId, type=string}, lastTransactionLanguageId={id=http://wso2jsonschema.org/result/data/0/lastTransactionLanguageId, type=string}, startMethod={id=http://wso2jsonschema.org/result/data/0/startMethod, type=string}, changeMode={id=http://wso2jsonschema.org/result/data/0/changeMode, type=string}, customerDemographic={id=http://wso2jsonschema.org/result/data/0/customerDemographic, type=object, properties={ageRange={id=http://wso2jsonschema.org/result/data/0/customerDemographic/ageRange, type=string}, gender={id=http://wso2jsonschema.org/result/data/0/customerDemographic/gender, type=string}, detectedAt={id=http://wso2jsonschema.org/result/data/0/customerDemographic/detectedAt, type=string}, demographicProfileId={id=http://wso2jsonschema.org/result/data/0/customerDemographic/demographicProfileId, type=string}}}, startedAt={id=http://wso2jsonschema.org/result/data/0/startedAt, type=string}, endedAt={id=http://wso2jsonschema.org/result/data/0/endedAt, type=string}, transactionState={id=http://wso2jsonschema.org/result/data/0/transactionState, type=string}, lastPlayedVideoProductId={id=http://wso2jsonschema.org/result/data/0/lastPlayedVideoProductId, type=string}, offeredProducts={id=http://wso2jsonschema.org/result/data/0/offeredProducts, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/offeredProducts/0, type=object, properties={productId={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/productId, type=string}, name={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/name, type=string}, key={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/key, type=string}, gridCoordinates={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates, type=object, properties={row={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/row, type=number}, rowSpan={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/rowSpan, type=number}, column={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/column, type=number}, columnSpan={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/columnSpan, type=number}}}, countryCode={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/countryCode, type=string}, brand={id=http://wso2jsonschema.org/result/data/0/offeredProducts/0/brand, type=string}}}]}, productSelectionHistory={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0, type=object, properties={productId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productId, type=string}, name={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/name, type=string}, selectedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/selectedAt, type=string}, removedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/removedAt, type=string}, paidAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/paidAt, type=string}, deliveredAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/deliveredAt, type=string}, dispensedAt={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/dispensedAt, type=string}, price={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/price, type=number}, positionAtScreen={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/positionAtScreen, type=string}, screenPosition={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition, type=object, properties={xAxis={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/xAxis, type=number}, yAxis={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/yAxis, type=number}}}, channelId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/channelId, type=string}, isCombo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/isCombo, type=boolean}, productCategoryId={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCategoryId, type=string}, animated={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/animated, type=boolean}, productCommercialInfo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo, type=object, properties={commercialVideoName={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}}, productGridAreaInfo={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo, type=object, properties={gridPosition={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridArea, type=number}}}, productSelectionType={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionType, type=string}, productSelectionMethod={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionMethod, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/countryCode, type=string}, brand={id=http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/brand, type=string}}}]}, creditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/creditBeforeTransaction, type=number}, creditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/creditAfterTransaction, type=number}, cardCreditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/cardCreditBeforeTransaction, type=number}, cardCreditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/cardCreditAfterTransaction, type=number}, paymentDetails={id=http://wso2jsonschema.org/result/data/0/paymentDetails, type=object, properties={paymentMethod={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentMethod, type=string}, paymentSubMethod={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentSubMethod, type=string}, paymentDevice={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentDevice, type=string}, paymentType={id=http://wso2jsonschema.org/result/data/0/paymentDetails/paymentType, type=string}}}, transactionMetrics={id=http://wso2jsonschema.org/result/data/0/transactionMetrics, type=object, properties={revenueInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo, type=object, properties={revenue={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenue, type=number}, revenueFromChargedAndDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedAndDeliveredProducts, type=number}, revenueFromChargedButNotDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedButNotDeliveredProducts, type=number}}}, productsCharged={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsCharged, type=number}, productsDelivered={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsDelivered, type=number}, notDeliveredProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/notDeliveredProducts, type=number}, productsRemovedFromShoppingCart={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/productsRemovedFromShoppingCart, type=number}, transactionLengthInSeconds={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/transactionLengthInSeconds, type=number}, deliveryLastedInSeconds={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/deliveryLastedInSeconds, type=number}, purchasedSingleProducts={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0, type=object, properties={productId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productId, type=string}, productInternalCode={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productInternalCode, type=string}, productCategoryId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCategoryId, type=string}, productName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productName, type=string}, productBrand={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productBrand, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/countryCode, type=string}, productDisplayName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName, type=object, properties={name={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/name, type=string}, translations={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0, type=object, properties={languageId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/languageId, type=string}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/value, type=string}}}]}}}, ageRequired={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/ageRequired, type=string}, priceInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo, type=object, properties={price={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/price, type=number}, chargedAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/chargedAmount, type=number}, originalPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/originalPrice, type=number}, appliedDiscount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/appliedDiscount, type=number}, taxRate={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate, type=object, properties={percentage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/percentage, type=number}, value={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/value, type=number}}}, netPrice={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/netPrice, type=number}}}, deliveryInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo, type=object, properties={channelId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/channelId, type=string}, selectedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/selectedAt, type=string}, dispensedAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/dispensedAt, type=string}, deliveredAt={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/deliveredAt, type=string}}}, parentProductId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/parentProductId, type=string}, animated={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/animated, type=boolean}, productCommercialInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo, type=object, properties={commercialVideoName={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialVideoName, type=string}, commercialInPlaylist={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialInPlaylist, type=boolean}, commercialForThisProductShowingAtTransactionStart={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart, type=boolean}}}, productGridAreaInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo, type=object, properties={gridPosition={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridPosition, type=string}, gridWidth={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridWidth, type=number}, gridHeight={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridHeight, type=number}, gridArea={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridArea, type=number}}}, productSelectionType={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionType, type=string}, productSelectionMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionMethod, type=string}, productPaymentMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productPaymentMethod, type=string}, transactionPaymentMethod={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/transactionPaymentMethod, type=string}}}]}, creditInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo, type=object, properties={creditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditBeforeTransaction, type=number}, creditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditAfterTransaction, type=number}, cardCreditBeforeTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditBeforeTransaction, type=number}, cardCreditAfterTransaction={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditAfterTransaction, type=number}, creditUsage={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditUsage, type=string}, usedCreditAmount={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/usedCreditAmount, type=number}}}, currencyInfo={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo, type=object, properties={currencyId={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/currencyId, type=string}, code={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/code, type=string}, symbol={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/symbol, type=string}}}, invoicingSystem={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/invoicingSystem, type=string}, calculatedAtTransactionEnd={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/calculatedAtTransactionEnd, type=boolean}, utcOffsetInHours={id=http://wso2jsonschema.org/result/data/0/transactionMetrics/utcOffsetInHours, type=number}}}, terminalInfo={id=http://wso2jsonschema.org/result/data/0/terminalInfo, type=object, properties={id={id=http://wso2jsonschema.org/result/data/0/terminalInfo/id, type=string}, name={id=http://wso2jsonschema.org/result/data/0/terminalInfo/name, type=string}, bodySerialNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/bodySerialNumber, type=string}, serialNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/serialNumber, type=string}, locationInfo={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo, type=object, properties={city={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/city, type=string}, street={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/street, type=string}, houseNumber={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/houseNumber, type=string}, postalCode={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/postalCode, type=string}, location={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/location, type=string}, locationType={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/locationType, type=string}, countryCode={id=http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/countryCode, type=string}}}}}, paymentButtonPressed={id=http://wso2jsonschema.org/result/data/0/paymentButtonPressed, type=boolean}, utcOffsetInHours={id=http://wso2jsonschema.org/result/data/0/utcOffsetInHours, type=number}, localStartedAt={id=http://wso2jsonschema.org/result/data/0/localStartedAt, type=string}, localEndedAt={id=http://wso2jsonschema.org/result/data/0/localEndedAt, type=string}, lastPlayedAdvertisementInfo={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo, type=object, properties={advertisementType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementType, type=string}, playerType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/playerType, type=string}, advertisementId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementId, type=string}, advertisementName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementName, type=string}, advertisementProviderId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderId, type=string}, advertisementProviderName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderName, type=string}, mediaType={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaType, type=string}, mediaFileName={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaFileName, type=string}, productId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/productId, type=string}, mediaId={id=http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaId, type=string}}}, paymentAttempts={id=http://wso2jsonschema.org/result/data/0/paymentAttempts, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0, type=object, properties={paymentAttemptId={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptId, type=string}, startedAt={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/startedAt, type=string}, paymentType={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentType, type=string}, endedAt={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/endedAt, type=string}, paymentAttemptResult={id=http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptResult, type=string}}}]}, invoicingChargedDetails={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails, type=array, items=[{id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0, type=object, properties={transactionProductId={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/transactionProductId, type=string}, chargedAmount={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/chargedAmount, type=number}, paymentType={id=http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/paymentType, type=string}}}]}, syncedAt={id=http://wso2jsonschema.org/result/data/0/syncedAt, type=string}, installationStatus={id=http://wso2jsonschema.org/result/data/0/installationStatus, type=string}}}]}, links={id=http://wso2jsonschema.org/result/links, type=object, properties={self={id=http://wso2jsonschema.org/result/links/self, type=object, properties={href={id=http://wso2jsonschema.org/result/links/self/href, type=string}}}, prev={id=http://wso2jsonschema.org/result/links/prev, type=object, properties={href={id=http://wso2jsonschema.org/result/links/prev/href, type=string}}}, next={id=http://wso2jsonschema.org/result/links/next, type=object, properties={href={id=http://wso2jsonschema.org/result/links/next/href, type=string}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="resultCode" schemaDataType="NUMBER" level="2">
+        <properties key="type" value="number"/>
+        <properties key="id" value="http://wso2jsonschema.org/resultCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="_post_rawprice_batch_req" schemaDataType="OBJECT" level="2">
+        <node name="_post_rawprice" level="3">
+          <node name="rere_id" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/rere_id"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="upc" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/upc"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.14/@node.0/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="upc_completo" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/upc_completo"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="item_desc" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/item_desc"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.14/@node.1/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="quantity" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/quantity"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.1"/>
+          </node>
+          <node name="measurement_unit" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/measurement_unit"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="price" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/price"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.14/@node.7/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="price_unit" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/price_unit"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="offer_price" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/offer_price"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="orig_price" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/orig_price"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="currency" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/currency"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.20/@node.9/@node.1/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="country" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/country"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.21/@node.4/@node.6/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="serial_number" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/serial_number"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.21/@node.3/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="start_date" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/start_date"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.9/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="end_date" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/end_date"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.10/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="stock_alert" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/stock_alert"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="tags" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/tags"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="sponsored" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/sponsored"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="stars" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/stars"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="reviews" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/reviews"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="data1_flx" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data1_flx"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.20/@node.7/@node.17/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="data2_flx" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data2_flx"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="data3_flx" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data3_flx"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="data4_flx" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data4_flx"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="data5_flx" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data5_flx"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="data6_flx" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data6_flx"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.3/@node.4/@node.0/@outNode/@outgoingLink.0"/>
+          </node>
+          <properties key="type" value="array"/>
+          <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice"/>
+          <properties key="items_id" value="http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0"/>
+          <properties key="items_type" value="object"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{rere_id={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/rere_id, type=string}, upc={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/upc, type=string}, upc_completo={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/upc_completo, type=string}, item_desc={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/item_desc, type=string}, quantity={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/quantity, type=string}, measurement_unit={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/measurement_unit, type=string}, price={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/price, type=string}, price_unit={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/price_unit, type=string}, offer_price={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/offer_price, type=string}, orig_price={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/orig_price, type=string}, currency={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/currency, type=string}, country={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/country, type=string}, serial_number={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/serial_number, type=string}, start_date={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/start_date, type=string}, end_date={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/end_date, type=string}, stock_alert={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/stock_alert, type=string}, tags={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/tags, type=string}, sponsored={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/sponsored, type=string}, stars={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/stars, type=string}, reviews={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/reviews, type=string}, data1_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data1_flx, type=string}, data2_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data2_flx, type=string}, data3_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data3_flx, type=string}, data4_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data4_flx, type=string}, data5_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data5_flx, type=string}, data6_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data6_flx, type=string}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/_post_rawprice_batch_req"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{_post_rawprice={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice, type=array, items=[{id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0, type=object, properties={rere_id={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/rere_id, type=string}, upc={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/upc, type=string}, upc_completo={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/upc_completo, type=string}, item_desc={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/item_desc, type=string}, quantity={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/quantity, type=string}, measurement_unit={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/measurement_unit, type=string}, price={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/price, type=string}, price_unit={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/price_unit, type=string}, offer_price={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/offer_price, type=string}, orig_price={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/orig_price, type=string}, currency={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/currency, type=string}, country={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/country, type=string}, serial_number={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/serial_number, type=string}, start_date={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/start_date, type=string}, end_date={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/end_date, type=string}, stock_alert={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/stock_alert, type=string}, tags={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/tags, type=string}, sponsored={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/sponsored, type=string}, stars={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/stars, type=string}, reviews={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/reviews, type=string}, data1_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data1_flx, type=string}, data2_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data2_flx, type=string}, data3_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data3_flx, type=string}, data4_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data4_flx, type=string}, data5_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data5_flx, type=string}, data6_flx={id=http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data6_flx, type=string}}}]}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+  <operators xsi:type="datamapper:Constant" defaultOutputConnectors="1" operatorType="CONSTANT" constantValue="1">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.0/@inNode"/>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.4/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Constant" defaultOutputConnectors="1" operatorType="CONSTANT" constantValue="UN">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@node.5/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+</datamapper:DataMapperRoot>

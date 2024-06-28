@@ -1,0 +1,863 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "version" : {
+      "id" : "http://wso2jsonschema.org/version",
+      "type" : "number"
+    },
+    "isSuccess" : {
+      "id" : "http://wso2jsonschema.org/isSuccess",
+      "type" : "boolean"
+    },
+    "statusCode" : {
+      "id" : "http://wso2jsonschema.org/statusCode",
+      "type" : "number"
+    },
+    "result" : {
+      "id" : "http://wso2jsonschema.org/result",
+      "type" : "object",
+      "properties" : {
+        "currentPage" : {
+          "id" : "http://wso2jsonschema.org/result/currentPage",
+          "type" : "number"
+        },
+        "pageSize" : {
+          "id" : "http://wso2jsonschema.org/result/pageSize",
+          "type" : "number"
+        },
+        "totalItems" : {
+          "id" : "http://wso2jsonschema.org/result/totalItems",
+          "type" : "number"
+        },
+        "totalPages" : {
+          "id" : "http://wso2jsonschema.org/result/totalPages",
+          "type" : "number"
+        },
+        "data" : {
+          "id" : "http://wso2jsonschema.org/result/data",
+          "type" : "array",
+          "items" : [ {
+            "id" : "http://wso2jsonschema.org/result/data/0",
+            "type" : "object",
+            "properties" : {
+              "id" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/id",
+                "type" : "string"
+              },
+              "createdAt" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/createdAt",
+                "type" : "string"
+              },
+              "customerId" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/customerId",
+                "type" : "string"
+              },
+              "currencyId" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/currencyId",
+                "type" : "string"
+              },
+              "transactionLanguageId" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/transactionLanguageId",
+                "type" : "string"
+              },
+              "lastTransactionLanguageId" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/lastTransactionLanguageId",
+                "type" : "string"
+              },
+              "startMethod" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/startMethod",
+                "type" : "string"
+              },
+              "changeMode" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/changeMode",
+                "type" : "string"
+              },
+              "customerDemographic" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/customerDemographic",
+                "type" : "object",
+                "properties" : {
+                  "ageRange" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/customerDemographic/ageRange",
+                    "type" : "string"
+                  },
+                  "gender" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/customerDemographic/gender",
+                    "type" : "string"
+                  },
+                  "detectedAt" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/customerDemographic/detectedAt",
+                    "type" : "string"
+                  },
+                  "demographicProfileId" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/customerDemographic/demographicProfileId",
+                    "type" : "string"
+                  }
+                }
+              },
+              "startedAt" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/startedAt",
+                "type" : "string"
+              },
+              "endedAt" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/endedAt",
+                "type" : "string"
+              },
+              "transactionState" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/transactionState",
+                "type" : "string"
+              },
+              "lastPlayedVideoProductId" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedVideoProductId",
+                "type" : "string"
+              },
+              "offeredProducts" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts",
+                "type" : "array",
+                "items" : [ {
+                  "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0",
+                  "type" : "object",
+                  "properties" : {
+                    "productId" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/productId",
+                      "type" : "string"
+                    },
+                    "name" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/name",
+                      "type" : "string"
+                    },
+                    "key" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/key",
+                      "type" : "string"
+                    },
+                    "gridCoordinates" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates",
+                      "type" : "object",
+                      "properties" : {
+                        "row" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/row",
+                          "type" : "number"
+                        },
+                        "rowSpan" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/rowSpan",
+                          "type" : "number"
+                        },
+                        "column" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/column",
+                          "type" : "number"
+                        },
+                        "columnSpan" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/gridCoordinates/columnSpan",
+                          "type" : "number"
+                        }
+                      }
+                    },
+                    "countryCode" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/countryCode",
+                      "type" : "string"
+                    },
+                    "brand" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/offeredProducts/0/brand",
+                      "type" : "string"
+                    }
+                  }
+                } ]
+              },
+              "productSelectionHistory" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory",
+                "type" : "array",
+                "items" : [ {
+                  "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0",
+                  "type" : "object",
+                  "properties" : {
+                    "productId" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productId",
+                      "type" : "string"
+                    },
+                    "name" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/name",
+                      "type" : "string"
+                    },
+                    "selectedAt" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/selectedAt",
+                      "type" : "string"
+                    },
+                    "removedAt" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/removedAt",
+                      "type" : "string"
+                    },
+                    "paidAt" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/paidAt",
+                      "type" : "string"
+                    },
+                    "deliveredAt" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/deliveredAt",
+                      "type" : "string"
+                    },
+                    "dispensedAt" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/dispensedAt",
+                      "type" : "string"
+                    },
+                    "price" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/price",
+                      "type" : "number"
+                    },
+                    "positionAtScreen" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/positionAtScreen",
+                      "type" : "string"
+                    },
+                    "screenPosition" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition",
+                      "type" : "object",
+                      "properties" : {
+                        "xAxis" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/xAxis",
+                          "type" : "number"
+                        },
+                        "yAxis" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/screenPosition/yAxis",
+                          "type" : "number"
+                        }
+                      }
+                    },
+                    "channelId" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/channelId",
+                      "type" : "string"
+                    },
+                    "isCombo" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/isCombo",
+                      "type" : "boolean"
+                    },
+                    "productCategoryId" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCategoryId",
+                      "type" : "string"
+                    },
+                    "animated" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/animated",
+                      "type" : "boolean"
+                    },
+                    "productCommercialInfo" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo",
+                      "type" : "object",
+                      "properties" : {
+                        "commercialVideoName" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialVideoName",
+                          "type" : "string"
+                        },
+                        "commercialInPlaylist" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialInPlaylist",
+                          "type" : "boolean"
+                        },
+                        "commercialForThisProductShowingAtTransactionStart" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart",
+                          "type" : "boolean"
+                        }
+                      }
+                    },
+                    "productGridAreaInfo" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo",
+                      "type" : "object",
+                      "properties" : {
+                        "gridPosition" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridPosition",
+                          "type" : "string"
+                        },
+                        "gridWidth" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridWidth",
+                          "type" : "number"
+                        },
+                        "gridHeight" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridHeight",
+                          "type" : "number"
+                        },
+                        "gridArea" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productGridAreaInfo/gridArea",
+                          "type" : "number"
+                        }
+                      }
+                    },
+                    "productSelectionType" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionType",
+                      "type" : "string"
+                    },
+                    "productSelectionMethod" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/productSelectionMethod",
+                      "type" : "string"
+                    },
+                    "countryCode" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/countryCode",
+                      "type" : "string"
+                    },
+                    "brand" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/productSelectionHistory/0/brand",
+                      "type" : "string"
+                    }
+                  }
+                } ]
+              },
+              "creditBeforeTransaction" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/creditBeforeTransaction",
+                "type" : "number"
+              },
+              "creditAfterTransaction" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/creditAfterTransaction",
+                "type" : "number"
+              },
+              "cardCreditBeforeTransaction" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/cardCreditBeforeTransaction",
+                "type" : "number"
+              },
+              "cardCreditAfterTransaction" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/cardCreditAfterTransaction",
+                "type" : "number"
+              },
+              "paymentDetails" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/paymentDetails",
+                "type" : "object",
+                "properties" : {
+                  "paymentMethod" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/paymentDetails/paymentMethod",
+                    "type" : "string"
+                  },
+                  "paymentSubMethod" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/paymentDetails/paymentSubMethod",
+                    "type" : "string"
+                  },
+                  "paymentDevice" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/paymentDetails/paymentDevice",
+                    "type" : "string"
+                  },
+                  "paymentType" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/paymentDetails/paymentType",
+                    "type" : "string"
+                  }
+                }
+              },
+              "transactionMetrics" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics",
+                "type" : "object",
+                "properties" : {
+                  "revenueInfo" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo",
+                    "type" : "object",
+                    "properties" : {
+                      "revenue" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenue",
+                        "type" : "number"
+                      },
+                      "revenueFromChargedAndDeliveredProducts" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedAndDeliveredProducts",
+                        "type" : "number"
+                      },
+                      "revenueFromChargedButNotDeliveredProducts" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/revenueInfo/revenueFromChargedButNotDeliveredProducts",
+                        "type" : "number"
+                      }
+                    }
+                  },
+                  "productsCharged" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/productsCharged",
+                    "type" : "number"
+                  },
+                  "productsDelivered" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/productsDelivered",
+                    "type" : "number"
+                  },
+                  "notDeliveredProducts" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/notDeliveredProducts",
+                    "type" : "number"
+                  },
+                  "productsRemovedFromShoppingCart" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/productsRemovedFromShoppingCart",
+                    "type" : "number"
+                  },
+                  "transactionLengthInSeconds" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/transactionLengthInSeconds",
+                    "type" : "number"
+                  },
+                  "deliveryLastedInSeconds" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/deliveryLastedInSeconds",
+                    "type" : "number"
+                  },
+                  "purchasedSingleProducts" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts",
+                    "type" : "array",
+                    "items" : [ {
+                      "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0",
+                      "type" : "object",
+                      "properties" : {
+                        "productId" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productId",
+                          "type" : "string"
+                        },
+                        "productInternalCode" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productInternalCode",
+                          "type" : "string"
+                        },
+                        "productCategoryId" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCategoryId",
+                          "type" : "string"
+                        },
+                        "productName" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productName",
+                          "type" : "string"
+                        },
+                        "productBrand" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productBrand",
+                          "type" : "string"
+                        },
+                        "countryCode" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/countryCode",
+                          "type" : "string"
+                        },
+                        "productDisplayName" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName",
+                          "type" : "object",
+                          "properties" : {
+                            "name" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/name",
+                              "type" : "string"
+                            },
+                            "translations" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations",
+                              "type" : "array",
+                              "items" : [ {
+                                "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0",
+                                "type" : "object",
+                                "properties" : {
+                                  "languageId" : {
+                                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/languageId",
+                                    "type" : "string"
+                                  },
+                                  "value" : {
+                                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productDisplayName/translations/0/value",
+                                    "type" : "string"
+                                  }
+                                }
+                              } ]
+                            }
+                          }
+                        },
+                        "ageRequired" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/ageRequired",
+                          "type" : "string"
+                        },
+                        "priceInfo" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo",
+                          "type" : "object",
+                          "properties" : {
+                            "price" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/price",
+                              "type" : "number"
+                            },
+                            "chargedAmount" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/chargedAmount",
+                              "type" : "number"
+                            },
+                            "originalPrice" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/originalPrice",
+                              "type" : "number"
+                            },
+                            "appliedDiscount" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/appliedDiscount",
+                              "type" : "number"
+                            },
+                            "taxRate" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate",
+                              "type" : "object",
+                              "properties" : {
+                                "percentage" : {
+                                  "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/percentage",
+                                  "type" : "number"
+                                },
+                                "value" : {
+                                  "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/taxRate/value",
+                                  "type" : "number"
+                                }
+                              }
+                            },
+                            "netPrice" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/priceInfo/netPrice",
+                              "type" : "number"
+                            }
+                          }
+                        },
+                        "deliveryInfo" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo",
+                          "type" : "object",
+                          "properties" : {
+                            "channelId" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/channelId",
+                              "type" : "string"
+                            },
+                            "selectedAt" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/selectedAt",
+                              "type" : "string"
+                            },
+                            "dispensedAt" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/dispensedAt",
+                              "type" : "string"
+                            },
+                            "deliveredAt" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/deliveryInfo/deliveredAt",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "parentProductId" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/parentProductId",
+                          "type" : "string"
+                        },
+                        "animated" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/animated",
+                          "type" : "boolean"
+                        },
+                        "productCommercialInfo" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo",
+                          "type" : "object",
+                          "properties" : {
+                            "commercialVideoName" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialVideoName",
+                              "type" : "string"
+                            },
+                            "commercialInPlaylist" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialInPlaylist",
+                              "type" : "boolean"
+                            },
+                            "commercialForThisProductShowingAtTransactionStart" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productCommercialInfo/commercialForThisProductShowingAtTransactionStart",
+                              "type" : "boolean"
+                            }
+                          }
+                        },
+                        "productGridAreaInfo" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo",
+                          "type" : "object",
+                          "properties" : {
+                            "gridPosition" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridPosition",
+                              "type" : "string"
+                            },
+                            "gridWidth" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridWidth",
+                              "type" : "number"
+                            },
+                            "gridHeight" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridHeight",
+                              "type" : "number"
+                            },
+                            "gridArea" : {
+                              "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productGridAreaInfo/gridArea",
+                              "type" : "number"
+                            }
+                          }
+                        },
+                        "productSelectionType" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionType",
+                          "type" : "string"
+                        },
+                        "productSelectionMethod" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productSelectionMethod",
+                          "type" : "string"
+                        },
+                        "productPaymentMethod" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/productPaymentMethod",
+                          "type" : "string"
+                        },
+                        "transactionPaymentMethod" : {
+                          "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/purchasedSingleProducts/0/transactionPaymentMethod",
+                          "type" : "string"
+                        }
+                      }
+                    } ]
+                  },
+                  "creditInfo" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo",
+                    "type" : "object",
+                    "properties" : {
+                      "creditBeforeTransaction" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditBeforeTransaction",
+                        "type" : "number"
+                      },
+                      "creditAfterTransaction" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditAfterTransaction",
+                        "type" : "number"
+                      },
+                      "cardCreditBeforeTransaction" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditBeforeTransaction",
+                        "type" : "number"
+                      },
+                      "cardCreditAfterTransaction" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/cardCreditAfterTransaction",
+                        "type" : "number"
+                      },
+                      "creditUsage" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/creditUsage",
+                        "type" : "string"
+                      },
+                      "usedCreditAmount" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/creditInfo/usedCreditAmount",
+                        "type" : "number"
+                      }
+                    }
+                  },
+                  "currencyInfo" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo",
+                    "type" : "object",
+                    "properties" : {
+                      "currencyId" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/currencyId",
+                        "type" : "string"
+                      },
+                      "code" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/code",
+                        "type" : "string"
+                      },
+                      "symbol" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/currencyInfo/symbol",
+                        "type" : "string"
+                      }
+                    }
+                  },
+                  "invoicingSystem" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/invoicingSystem",
+                    "type" : "string"
+                  },
+                  "calculatedAtTransactionEnd" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/calculatedAtTransactionEnd",
+                    "type" : "boolean"
+                  },
+                  "utcOffsetInHours" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/transactionMetrics/utcOffsetInHours",
+                    "type" : "number"
+                  }
+                }
+              },
+              "terminalInfo" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo",
+                "type" : "object",
+                "properties" : {
+                  "id" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/id",
+                    "type" : "string"
+                  },
+                  "name" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/name",
+                    "type" : "string"
+                  },
+                  "bodySerialNumber" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/bodySerialNumber",
+                    "type" : "string"
+                  },
+                  "serialNumber" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/serialNumber",
+                    "type" : "string"
+                  },
+                  "locationInfo" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo",
+                    "type" : "object",
+                    "properties" : {
+                      "city" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/city",
+                        "type" : "string"
+                      },
+                      "street" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/street",
+                        "type" : "string"
+                      },
+                      "houseNumber" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/houseNumber",
+                        "type" : "string"
+                      },
+                      "postalCode" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/postalCode",
+                        "type" : "string"
+                      },
+                      "location" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/location",
+                        "type" : "string"
+                      },
+                      "locationType" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/locationType",
+                        "type" : "string"
+                      },
+                      "countryCode" : {
+                        "id" : "http://wso2jsonschema.org/result/data/0/terminalInfo/locationInfo/countryCode",
+                        "type" : "string"
+                      }
+                    }
+                  }
+                }
+              },
+              "paymentButtonPressed" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/paymentButtonPressed",
+                "type" : "boolean"
+              },
+              "utcOffsetInHours" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/utcOffsetInHours",
+                "type" : "number"
+              },
+              "localStartedAt" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/localStartedAt",
+                "type" : "string"
+              },
+              "localEndedAt" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/localEndedAt",
+                "type" : "string"
+              },
+              "lastPlayedAdvertisementInfo" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo",
+                "type" : "object",
+                "properties" : {
+                  "advertisementType" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementType",
+                    "type" : "string"
+                  },
+                  "playerType" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/playerType",
+                    "type" : "string"
+                  },
+                  "advertisementId" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementId",
+                    "type" : "string"
+                  },
+                  "advertisementName" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementName",
+                    "type" : "string"
+                  },
+                  "advertisementProviderId" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderId",
+                    "type" : "string"
+                  },
+                  "advertisementProviderName" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/advertisementProviderName",
+                    "type" : "string"
+                  },
+                  "mediaType" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaType",
+                    "type" : "string"
+                  },
+                  "mediaFileName" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaFileName",
+                    "type" : "string"
+                  },
+                  "productId" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/productId",
+                    "type" : "string"
+                  },
+                  "mediaId" : {
+                    "id" : "http://wso2jsonschema.org/result/data/0/lastPlayedAdvertisementInfo/mediaId",
+                    "type" : "string"
+                  }
+                }
+              },
+              "paymentAttempts" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/paymentAttempts",
+                "type" : "array",
+                "items" : [ {
+                  "id" : "http://wso2jsonschema.org/result/data/0/paymentAttempts/0",
+                  "type" : "object",
+                  "properties" : {
+                    "paymentAttemptId" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptId",
+                      "type" : "string"
+                    },
+                    "startedAt" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/paymentAttempts/0/startedAt",
+                      "type" : "string"
+                    },
+                    "paymentType" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentType",
+                      "type" : "string"
+                    },
+                    "endedAt" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/paymentAttempts/0/endedAt",
+                      "type" : "string"
+                    },
+                    "paymentAttemptResult" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/paymentAttempts/0/paymentAttemptResult",
+                      "type" : "string"
+                    }
+                  }
+                } ]
+              },
+              "invoicingChargedDetails" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/invoicingChargedDetails",
+                "type" : "array",
+                "items" : [ {
+                  "id" : "http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0",
+                  "type" : "object",
+                  "properties" : {
+                    "transactionProductId" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/transactionProductId",
+                      "type" : "string"
+                    },
+                    "chargedAmount" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/chargedAmount",
+                      "type" : "number"
+                    },
+                    "paymentType" : {
+                      "id" : "http://wso2jsonschema.org/result/data/0/invoicingChargedDetails/0/paymentType",
+                      "type" : "string"
+                    }
+                  }
+                } ]
+              },
+              "syncedAt" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/syncedAt",
+                "type" : "string"
+              },
+              "installationStatus" : {
+                "id" : "http://wso2jsonschema.org/result/data/0/installationStatus",
+                "type" : "string"
+              }
+            }
+          } ]
+        },
+        "links" : {
+          "id" : "http://wso2jsonschema.org/result/links",
+          "type" : "object",
+          "properties" : {
+            "self" : {
+              "id" : "http://wso2jsonschema.org/result/links/self",
+              "type" : "object",
+              "properties" : {
+                "href" : {
+                  "id" : "http://wso2jsonschema.org/result/links/self/href",
+                  "type" : "string"
+                }
+              }
+            },
+            "prev" : {
+              "id" : "http://wso2jsonschema.org/result/links/prev",
+              "type" : "object",
+              "properties" : {
+                "href" : {
+                  "id" : "http://wso2jsonschema.org/result/links/prev/href",
+                  "type" : "string"
+                }
+              }
+            },
+            "next" : {
+              "id" : "http://wso2jsonschema.org/result/links/next",
+              "type" : "object",
+              "properties" : {
+                "href" : {
+                  "id" : "http://wso2jsonschema.org/result/links/next/href",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "resultCode" : {
+      "id" : "http://wso2jsonschema.org/resultCode",
+      "type" : "number"
+    }
+  }
+}

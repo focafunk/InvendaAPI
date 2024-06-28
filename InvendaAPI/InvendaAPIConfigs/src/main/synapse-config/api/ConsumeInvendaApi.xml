@@ -10,6 +10,7 @@
             <property expression="$ctx:apiconf//password" name="passConf" scope="default" type="STRING" xmlns:ns="http://org.apache.synapse/xsd" xmlns:ns2="http://org.apache.synapse/xsd"/>
             <property expression="$ctx:apiconf//baseurl" name="baseurl" scope="default" type="STRING"/>
             <property expression="$ctx:apiconf//subscription-key" name="subscription-key" scope="default" type="STRING"/>
+            <property expression="$ctx:apiconf//dataservices_url" name="dataservices_url" scope="default" type="STRING"/>
             <property expression="fn:concat(get-property('baseurl'), '/authenticate')" name="uri.var.login" scope="default" type="STRING"/>
             <property expression="get-property('query.param.dateFrom')" name="dateFrom" scope="default" type="STRING"/>
             <property expression="get-property('query.param.dateTo')" name="dateTo" scope="default" type="STRING"/>
@@ -50,7 +51,7 @@
             <header name="Accept" scope="transport" value="application/json"/>
             <header expression="fn:concat('Bearer ',get-property('authToken'))" name="Authorization" scope="transport"/>
             <header expression="get-property('subscription-key')" name="Subscription-key" scope="transport"/>
-            <property expression="fn:concat(get-property('baseurl'),'/Transactions?DateFrom=',get-property('dateFrom'),'&amp;DateTo=',get-property('dateTo'),'&amp;limit=5&amp;Page=1&amp;Sort=1')" name="uri.var.transactions" scope="default" type="STRING"/>
+            <property expression="fn:concat(get-property('baseurl'),'/Transactions?DateFrom=',get-property('dateFrom'),'&amp;DateTo=',get-property('dateTo'),'&amp;limit=100&amp;Page=1&amp;Sort=1')" name="uri.var.transactions" scope="default" type="STRING"/>
             <log level="custom">
                 <property name="Donde" value="Realizo la request HTTP GET con el token obtenido"/>
                 <property expression="$ctx:uri.var.transactions" name="URL endpoint elemetrica"/>
@@ -72,9 +73,47 @@
                 </endpoint>
             </call>
             <log level="full"/>
+            <script function="transform" key="gov:custom/transactionInv2Rto.js" language="js"/>
+            <!--  datamapper config="gov:datamapper/InvendaAPIMapping.dmc" description="map" inputSchema="gov:datamapper/InvendaAPIMapping_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/InvendaAPIMapping_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/InvendaAPIMapping_xsltStyleSheet.xml"/>-->
+            <payloadFactory description="updatePayload" media-type="json">
+                <format>$1</format>
+                <args>
+                    <arg evaluator="xml" expression="$ctx:newPayload"/>
+                </args>
+            </payloadFactory>
             <log level="custom">
                 <property name="Paso final" value="Respondo con el JSON listo"/>
             </log>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <header name="Accept" scope="transport" value="application/json"/>
+            <property name="FORCE_ERROR_ON_SOAP_FAULT" scope="default" type="STRING" value="true"/>
+            <property expression="fn:concat($ctx:dataservices_url,'/InvendaDataService/_post_rawprice_batch_req')" name="uri.var.raw_price_url" scope="default" type="STRING"/>
+            <log level="custom">
+                <property name="donde 2" value="pre post raw_price_url"/>
+                <property expression="json-eval($)" name="payload"/>
+                <property expression="$ctx:uri.var.raw_price_url" name="api url"/>
+            </log>
+            <call>
+                <endpoint>
+                    <http method="post" uri-template="{uri.var.raw_price_url}">
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>1</progressionFactor>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </call>
+            <filter regex="2[0-9][0-9]" source="get-property('axis2', 'HTTP_SC')">
+                <then/>
+                <else>
+                    <property expression="json-eval($)" name="ERROR_MESSAGE" scope="default" type="STRING"/>
+                    <property name="INVENDA_ERROR" scope="default" type="STRING" value="POST /empresa con problemas"/>
+                    <sequence key="InvendaFaultSequence"/>
+                </else>
+            </filter>
             <respond/>
         </inSequence>
         <outSequence/>

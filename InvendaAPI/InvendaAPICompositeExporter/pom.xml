@@ -14,22 +14,29 @@
   <name>InvendaAPICompositeExporter</name>
   <description>InvendaAPICompositeExporter</description>
   <properties>
-    <com.example.metadata_._ConsumeInvendaApi_swagger>capp/EnterpriseServiceBus</com.example.metadata_._ConsumeInvendaApi_swagger>
+    <com.example.resource_._InvendaAPIMapping>capp/EnterpriseServiceBus</com.example.resource_._InvendaAPIMapping>
     <com.example.api_._ConsumeInvendaApi>capp/EnterpriseServiceBus</com.example.api_._ConsumeInvendaApi>
-    <com.example.metadata_._ConsumeInvendaApi_metadata>capp/EnterpriseServiceBus</com.example.metadata_._ConsumeInvendaApi_metadata>
-    <com.example.metadata_._ConsumeInvendaAPI_swagger>capp/EnterpriseServiceBus</com.example.metadata_._ConsumeInvendaAPI_swagger>
+    <com.example.resource_._transactionInv2Rto_js>capp/EnterpriseIntegrator</com.example.resource_._transactionInv2Rto_js>
     <com.example.dataservice_._InvendaDataService>capp/DataServicesServer</com.example.dataservice_._InvendaDataService>
-    <com.example.metadata_._ConsumeInvendaAPI_metadata>capp/EnterpriseServiceBus</com.example.metadata_._ConsumeInvendaAPI_metadata>
-    <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.resource_._InvendaAPIMapping_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._InvendaAPIMapping_outputSchema>
     <com.example.datasource_._InvendaDatasource>capp/DataServicesServer</com.example.datasource_._InvendaDatasource>
     <com.example.resource_._apiconfig_xml>capp/EnterpriseIntegrator</com.example.resource_._apiconfig_xml>
+    <com.example.metadata_._ConsumeInvendaApi_swagger>capp/EnterpriseServiceBus</com.example.metadata_._ConsumeInvendaApi_swagger>
+    <com.example.metadata_._ConsumeInvendaApi_metadata>capp/EnterpriseServiceBus</com.example.metadata_._ConsumeInvendaApi_metadata>
+    <com.example.sequence_._InvendaFaultSequence>capp/EnterpriseServiceBus</com.example.sequence_._InvendaFaultSequence>
+    <com.example.metadata_._ConsumeInvendaAPI_swagger>capp/EnterpriseServiceBus</com.example.metadata_._ConsumeInvendaAPI_swagger>
+    <com.example.metadata_._ConsumeInvendaAPI_metadata>capp/EnterpriseServiceBus</com.example.metadata_._ConsumeInvendaAPI_metadata>
+    <com.example.resource_._InvendaAPIMapping_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._InvendaAPIMapping_inputSchema>
+    <com.example.resource_._InvendaMpping>capp/EnterpriseServiceBus</com.example.resource_._InvendaMpping>
+    <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.resource_._InvendaAPIMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._InvendaAPIMapping_xsltStyleSheet>
   </properties>
   <dependencies>
     <dependency>
-      <groupId>com.example.metadata</groupId>
-      <artifactId>ConsumeInvendaApi_swagger</artifactId>
+      <groupId>com.example.resource</groupId>
+      <artifactId>InvendaAPIMapping</artifactId>
       <version>1.0.0</version>
-      <type>yaml</type>
+      <type>zip</type>
     </dependency>
     <dependency>
       <groupId>com.example.api</groupId>
@@ -38,16 +45,10 @@
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>com.example.metadata</groupId>
-      <artifactId>ConsumeInvendaApi_metadata</artifactId>
+      <groupId>com.example.resource</groupId>
+      <artifactId>transactionInv2Rto_js</artifactId>
       <version>1.0.0</version>
-      <type>yaml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.metadata</groupId>
-      <artifactId>ConsumeInvendaAPI_swagger</artifactId>
-      <version>1.0.0</version>
-      <type>yaml</type>
+      <type>zip</type>
     </dependency>
     <dependency>
       <groupId>com.example.dataservice</groupId>
@@ -56,10 +57,10 @@
       <type>dbs</type>
     </dependency>
     <dependency>
-      <groupId>com.example.metadata</groupId>
-      <artifactId>ConsumeInvendaAPI_metadata</artifactId>
+      <groupId>com.example.resource</groupId>
+      <artifactId>InvendaAPIMapping_outputSchema</artifactId>
       <version>1.0.0</version>
-      <type>yaml</type>
+      <type>zip</type>
     </dependency>
     <dependency>
       <groupId>com.example.datasource</groupId>
@@ -70,6 +71,54 @@
     <dependency>
       <groupId>com.example.resource</groupId>
       <artifactId>apiconfig_xml</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>ConsumeInvendaApi_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>ConsumeInvendaApi_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.sequence</groupId>
+      <artifactId>InvendaFaultSequence</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>ConsumeInvendaAPI_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>ConsumeInvendaAPI_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>InvendaAPIMapping_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>InvendaMpping</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>InvendaAPIMapping_xsltStyleSheet</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>

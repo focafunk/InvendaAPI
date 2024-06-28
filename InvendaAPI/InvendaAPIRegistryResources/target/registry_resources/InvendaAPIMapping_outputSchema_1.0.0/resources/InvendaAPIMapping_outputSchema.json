@@ -1,0 +1,129 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "_post_rawprice_batch_req" : {
+      "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req",
+      "type" : "object",
+      "properties" : {
+        "_post_rawprice" : {
+          "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice",
+          "type" : "array",
+          "items" : [ {
+            "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0",
+            "type" : "object",
+            "properties" : {
+              "rere_id" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/rere_id",
+                "type" : "string"
+              },
+              "upc" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/upc",
+                "type" : "string"
+              },
+              "upc_completo" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/upc_completo",
+                "type" : "string"
+              },
+              "item_desc" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/item_desc",
+                "type" : "string"
+              },
+              "quantity" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/quantity",
+                "type" : "string"
+              },
+              "measurement_unit" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/measurement_unit",
+                "type" : "string"
+              },
+              "price" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/price",
+                "type" : "string"
+              },
+              "price_unit" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/price_unit",
+                "type" : "string"
+              },
+              "offer_price" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/offer_price",
+                "type" : "string"
+              },
+              "orig_price" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/orig_price",
+                "type" : "string"
+              },
+              "currency" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/currency",
+                "type" : "string"
+              },
+              "country" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/country",
+                "type" : "string"
+              },
+              "serial_number" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/serial_number",
+                "type" : "string"
+              },
+              "start_date" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/start_date",
+                "type" : "string"
+              },
+              "end_date" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/end_date",
+                "type" : "string"
+              },
+              "stock_alert" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/stock_alert",
+                "type" : "string"
+              },
+              "tags" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/tags",
+                "type" : "string"
+              },
+              "sponsored" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/sponsored",
+                "type" : "string"
+              },
+              "stars" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/stars",
+                "type" : "string"
+              },
+              "reviews" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/reviews",
+                "type" : "string"
+              },
+              "data1_flx" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data1_flx",
+                "type" : "string"
+              },
+              "data2_flx" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data2_flx",
+                "type" : "string"
+              },
+              "data3_flx" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data3_flx",
+                "type" : "string"
+              },
+              "data4_flx" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data4_flx",
+                "type" : "string"
+              },
+              "data5_flx" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data5_flx",
+                "type" : "string"
+              },
+              "data6_flx" : {
+                "id" : "http://wso2jsonschema.org/_post_rawprice_batch_req/_post_rawprice/0/data6_flx",
+                "type" : "string"
+              }
+            }
+          } ]
+        }
+      }
+    }
+  }
+}

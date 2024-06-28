@@ -17,4 +17,7 @@
     <artifact name="ConsumeInvendaAPI_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
         <file>src/main/resources/metadata/ConsumeInvendaAPI_metadata.yaml</file>
     </artifact>
+    <artifact name="InvendaFaultSequence" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/InvendaFaultSequence.xml</file>
+    </artifact>
 </artifacts>
