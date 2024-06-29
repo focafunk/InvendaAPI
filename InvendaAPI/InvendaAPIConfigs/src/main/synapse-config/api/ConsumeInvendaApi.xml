@@ -11,10 +11,10 @@
             <property expression="$ctx:apiconf//baseurl" name="baseurl" scope="default" type="STRING"/>
             <property expression="$ctx:apiconf//subscription-key" name="subscription-key" scope="default" type="STRING"/>
             <property expression="$ctx:apiconf//dataservices_url" name="dataservices_url" scope="default" type="STRING"/>
+            <property expression="$ctx:apiconf//recordsPerPage" name="limit" scope="default" type="STRING"/>
             <property expression="fn:concat(get-property('baseurl'), '/authenticate')" name="uri.var.login" scope="default" type="STRING"/>
             <property expression="get-property('query.param.dateFrom')" name="dateFrom" scope="default" type="STRING"/>
             <property expression="get-property('query.param.dateTo')" name="dateTo" scope="default" type="STRING"/>
-            <property expression="get-property('query.param.limit')" name="limit" scope="default" type="STRING"/>
             <property expression="get-property('query.param.page')" name="page" scope="default" type="STRING"/>
             <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
             <log level="custom">
@@ -51,10 +51,10 @@
             <header name="Accept" scope="transport" value="application/json"/>
             <header expression="fn:concat('Bearer ',get-property('authToken'))" name="Authorization" scope="transport"/>
             <header expression="get-property('subscription-key')" name="Subscription-key" scope="transport"/>
-            <property expression="fn:concat(get-property('baseurl'),'/Transactions?DateFrom=',get-property('dateFrom'),'&amp;DateTo=',get-property('dateTo'),'&amp;limit=100&amp;Page=1&amp;Sort=1')" name="uri.var.transactions" scope="default" type="STRING"/>
+            <property expression="fn:concat(get-property('baseurl'),'/Transactions?DateFrom=',get-property('dateFrom'),'&amp;DateTo=',get-property('dateTo'),'&amp;limit=',get-property('limit'),'&amp;Page=',get-property('page'),'&amp;Sort=1')" name="uri.var.transactions" scope="default" type="STRING"/>
             <log level="custom">
                 <property name="Donde" value="Realizo la request HTTP GET con el token obtenido"/>
-                <property expression="$ctx:uri.var.transactions" name="URL endpoint elemetrica"/>
+                <property expression="$ctx:uri.var.transactions" name="URL endpoint Invenda"/>
                 <property expression="get-property('transport','Authorization')" name="Authorization"/>
                 <property expression="get-property('transport','Subscription-key')" name="Subscription-key"/>
             </log>
@@ -73,6 +73,8 @@
                 </endpoint>
             </call>
             <log level="full"/>
+            <property expression="json-eval($.result.totalPages)" name="totalPages" scope="default" type="STRING"/>
+            <property expression="json-eval($.result.currentPage)" name="currentPage" scope="default" type="STRING"/>
             <script function="transform" key="gov:custom/transactionInv2Rto.js" language="js"/>
             <!--  datamapper config="gov:datamapper/InvendaAPIMapping.dmc" description="map" inputSchema="gov:datamapper/InvendaAPIMapping_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/InvendaAPIMapping_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/InvendaAPIMapping_xsltStyleSheet.xml"/>-->
             <payloadFactory description="updatePayload" media-type="json">
@@ -114,6 +116,20 @@
                     <sequence key="InvendaFaultSequence"/>
                 </else>
             </filter>
+            <payloadFactory description="responseMsg" media-type="json">
+                <format>{
+                	"totalPages":"$1",
+                	"currentPage":"$2"
+                	}</format>
+                <args>
+                    <arg evaluator="xml" expression="$ctx:totalPages"/>
+                    <arg evaluator="xml" expression="$ctx:currentPage"/>
+                </args>
+            </payloadFactory>
+            <log level="custom">
+                <property name="donde final" value="respondiendo"/>
+                <property expression="json-eval($)" name="payload"/>
+            </log>
             <respond/>
         </inSequence>
         <outSequence/>

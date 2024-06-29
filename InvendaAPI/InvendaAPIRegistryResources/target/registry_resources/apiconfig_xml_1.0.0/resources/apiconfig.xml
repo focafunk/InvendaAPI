@@ -5,4 +5,5 @@
 	<password>yN3wWHwa.1</password>
 	<subscription-key>10f5a6c233854140bb9c538ef64a967b</subscription-key>
 	<dataservices_url>http://localhost:8290/services</dataservices_url>
+	<recordsPerPage>3</recordsPerPage>
 </api>
