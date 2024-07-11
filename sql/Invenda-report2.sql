@@ -716,17 +716,12 @@ SELECT :start_date "Start"
 		AND p.serial_number = t.serial_number 
 		AND p.currency='MXN') a) "Revenue from card MXN"
 FROM terminals t
-,prices p 
-WHERE p.serial_number = t.serial_number 
-AND p.start_date >= CONVERT(datetime,:start_date) 
-AND p.end_date <=CONVERT(datetime,:end_date)
+WHERE t.serial_number in 
+            (select p.serial_number
+             from prices p 
+             where p.start_date >= CONVERT(datetime,:start_date) 
+	     AND p.end_date <=CONVERT(datetime,:end_date))
 ORDER BY t.serial_number ASC
 
-
-
-SELECT distinct(currency) FROM prices
-
-
-WHERE p
 
 
