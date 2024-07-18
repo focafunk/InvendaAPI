@@ -8,7 +8,7 @@ import requests
 import logging
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename='invenda.log', encoding='utf-8', level=logging.INFO)
+logging.basicConfig(filename='invenda.log', level=logging.INFO)
 today = datetime.today()
 today_str= today.strftime("%Y-%m-%d %H:%M:%S")
 
