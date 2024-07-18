@@ -6,6 +6,7 @@ from datetime import datetime, timedelta, date
 import sys
 import requests 
 import logging
+import time
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='invenda.log', level=logging.INFO)
@@ -26,12 +27,28 @@ print(f"Starting process at: {today_str}")
 #Calculate days and number of days between dates
 date_cad1 = sys.argv[1]
 date_cad2 = sys.argv[2]
+try: 
+    from_page_param = sys.argv[3] 
+    print(f"Starting from page: {from_page_param}")
+
+except IndexError: 
+    from_page_param='1'
+
 date1 = datetime.strptime(date_cad1, '%Y-%m-%dT%H:%M:%S')
 date2 = datetime.strptime(date_cad2, '%Y-%m-%dT%H:%M:%S')
-wso2_url ='http://34.130.249.21:8290' #'http://192.168.0.176:8290'
+wso2_url ='http://192.168.0.176:8290' #'http://34.130.249.21:8290' 
+c_retrys = 5 #amount of retrys
+c_sleeptime = 300
 
 # amount of days to loop
 days= (date2 - date1).days
+
+# if a start page is informed, it will be used in the first request, it will be used in case there were problems while
+# processing info and only a certain amount of pages was successfully processed
+if from_page_param: 
+    from_page = int(from_page_param)
+else: 
+    from_page = 1
 
 # let's build the different dates among the date ranges given, and invoke all pages api for each day
 date_from_str = date1.isoformat()
@@ -41,22 +58,33 @@ for day in range(0,days):
     date_to = date_to + timedelta(days=1)
     date_to_str = date_to.isoformat()
 
-    logger.info(f"processsing from {date_from_str} to {date_to_str}")
+    logger.info(f"processsing from {date_from_str} to {date_to_str} from page {from_page}" )
     logger.info("======================================================================================================")
     #build wso2 api url and get first page for this date
     invenda_api_url = f"{wso2_url}/invenda/consume/transactions?dateFrom={date_from_str}.000Z&dateTo={date_to_str}.000Z&page="
-    logger.info(f"requesting url {invenda_api_url}1")
-    response =requests.get(invenda_api_url+f"1").json()
+    logger.info(f"requesting url {invenda_api_url}{from_page}")
+    response =requests.get(invenda_api_url+str(from_page)).json()
     logger.info(response)
  
     totalPages = response["totalPages"]
     logger.info(f"total pages to consume {totalPages}")
 
     # get from page 2 to the last page for this date, this will call Invenda api and later insert into database
-    for page in range(2,int(totalPages)):
+    for page in range(from_page+1,int(totalPages)):
         logger.info(f"About to request page {page}")
         response =requests.get(invenda_api_url+f"{page}").json()
         logger.debug(response)
+        if "invenda_errors" in response:
+            for counter in range(1,int(c_retrys)
+                logger.error(f"There was an error {response}, sleeping for {c_sleeptime} seconds...")
+                 time.sleep(c_sleeptime)
+                 logger.info(f"Retrying page {page}, try # {counter}")
+                 response =requests.get(invenda_api_url+f"{page}").json()
+                logger.debug(response)
+
+
+    #reset from page counter for next day, in case from_page parameter was informed for first day in range
+    from_page = 1
 
     #now the next date from is current date to
     date_from_str = date_to_str
