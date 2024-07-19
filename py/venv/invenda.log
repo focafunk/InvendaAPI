@@ -2747,3 +2747,375 @@ INFO:__main__:About to request page 174
 INFO:__main__:About to request page 175
 INFO:__main__:About to request page 176
 INFO:__main__:About to request page 177
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 21:03:10
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 21:18:02
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 23:22:26
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 23:25:55
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 23:27:33
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 23:29:20
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 23:52:16
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 23:55:42
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 00:40:44
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 00:51:34
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:<Response [404]>
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 00:53:56
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:<Response [404]>
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 00:59:41
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 300 seconds...
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 01:02:18
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 1
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 2
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 3
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 01:12:28
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 1
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 2
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 3
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 4
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 01:16:54
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 1
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 2
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 3
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 01:21:59
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Response <Response [404]>
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 1
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Response <Response [404]>
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 2
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Response <Response [404]>
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 3
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Response <Response [404]>
+INFO:__main__:ABORTING: Maximum retry limit reached
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 01:36:13
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Response <Response [404]>
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 1
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Response <Response [404]>
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 2
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Response <Response [404]>
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 3
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Response <Response [404]>
+INFO:__main__:ABORTING: Maximum retry limit reached
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 01:38:22
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:<Response [404]>
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 1
+INFO:__main__:<Response [404]>
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 2
+INFO:__main__:<Response [404]>
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 3
+INFO:__main__:<Response [404]>
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:ABORTING: Maximum retry limit reached
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 01:41:59
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:{'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 1
+INFO:__main__:{'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 2
+INFO:__main__:{'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 3
+INFO:__main__:{'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:ABORTING: Maximum retry limit reached
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-19 01:45:06
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:{'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+INFO:__main__:Retrying page 4, try # 1
+INFO:__main__:{'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}
+INFO:__main__:Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:There was an error <Response [404]>, sleeping for 25 seconds...
+2024-07-19 01:45:38,078 Importing Transactions from Invenda API
+2024-07-19 01:45:38,078 Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+2024-07-19 01:45:38,079 Starting process at: 2024-07-19 01:45:38
+2024-07-19 01:45:38,079 ____________________________________________________________________________________________________
+2024-07-19 01:45:38,080 processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+2024-07-19 01:45:38,080 ======================================================================================================
+2024-07-19 01:45:38,080 requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+2024-07-19 01:45:39,067 {'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}
+2024-07-19 01:45:39,068 Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+2024-07-19 01:45:39,068 There was an error <Response [404]>, sleeping for 25 seconds...
+2024-07-19 01:46:04,093 Retrying page 4, try # 1
+2024-07-19 01:46:04,975 {'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}
+2024-07-19 01:46:04,975 Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+2024-07-19 01:46:04,975 There was an error <Response [404]>, sleeping for 25 seconds...
+2024-07-19 01:46:26,796 Importing Transactions from Invenda API: 
+2024-07-19 01:46:26,796 Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']: 
+2024-07-19 01:46:26,796 Starting process at: 2024-07-19 01:46:26: 
+2024-07-19 01:46:26,796 ____________________________________________________________________________________________________: 
+2024-07-19 01:46:26,797 processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4: 
+2024-07-19 01:46:26,797 ======================================================================================================: 
+2024-07-19 01:46:26,797 requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4: 
+2024-07-19 01:46:28,300 {'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}}: 
+2024-07-19 01:46:28,300 Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4: 
+2024-07-19 01:46:28,300 There was an error <Response [404]>, sleeping for 25 seconds...: 
+2024-07-19 01:46:53,324 Retrying page 4, try # 1: 
+2024-07-19 01:46:55,687: Importing Transactions from Invenda API 
+2024-07-19 01:46:55,687: Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4'] 
+2024-07-19 01:46:55,687: Starting process at: 2024-07-19 01:46:55 
+2024-07-19 01:46:55,687: ____________________________________________________________________________________________________ 
+2024-07-19 01:46:55,689: processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4 
+2024-07-19 01:46:55,689: ====================================================================================================== 
+2024-07-19 01:46:55,689: requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4 
+2024-07-19 01:46:58,638: {'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}} 
+2024-07-19 01:46:58,639: Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4 
+2024-07-19 01:46:58,639: There was an error <Response [404]>, sleeping for 25 seconds... 
+2024-07-19 01:47:23,664: Retrying page 4, try # 1 
+2024-07-19 01:47:24,440: {'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}} 
+2024-07-19 01:47:24,440: Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4 
+2024-07-19 01:47:24,440: There was an error <Response [404]>, sleeping for 25 seconds... 
+2024-07-19 01:47:49,465: Retrying page 4, try # 2 
+2024-07-19 01:47:50,242: {'invenda_errors': {'code': '', 'detail': '', 'invenda_error': 'GET /transactions url:https://api.invenda.io/datalake/api/Transactionsssss?DateFrom=2024-05-06T00:00:00.000Z&DateTo=2024-05-07T00:00:00.000Z&limit=100&Page=4&Sort=1', 'errorMessage': 'Requested endpoint was not found.'}} 
+2024-07-19 01:47:50,242: Error 404 Client Error: Not Found for url: http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4 
+2024-07-19 01:47:50,242: There was an error <Response [404]>, sleeping for 25 seconds... 
+2024-07-19 01:48:15,266: Retrying page 4, try # 3 
+2024-07-19 01:49:22,108: Importing Transactions from Invenda API 
+2024-07-19 01:49:22,108: Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4'] 
+2024-07-19 01:49:22,108: Starting process at: 2024-07-19 01:49:22 
+2024-07-19 01:49:22,108: ____________________________________________________________________________________________________ 
+2024-07-19 01:49:22,110: processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4 
+2024-07-19 01:49:22,110: ====================================================================================================== 
+2024-07-19 01:49:22,110: requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4 
+2024-07-19 01:49:44,636: {'totalPages': '463', 'currentPage': '4'} 
+2024-07-19 01:49:44,637: total pages to consume 463 
+2024-07-19 01:49:44,637: About to request page 5 
+2024-07-19 01:50:01,214: {'totalPages': '463', 'currentPage': '5'} 
+2024-07-19 01:50:01,214: About to request page 6 
+2024-07-19 01:50:16,265: {'totalPages': '463', 'currentPage': '6'} 
+2024-07-19 01:50:16,266: About to request page 7 
+2024-07-19 01:50:31,623: {'totalPages': '463', 'currentPage': '7'} 
+2024-07-19 01:50:31,624: About to request page 8 
+2024-07-19 01:50:47,181: {'totalPages': '463', 'currentPage': '8'} 
+2024-07-19 01:50:47,181: About to request page 9 
+2024-07-19 01:51:02,644: {'totalPages': '463', 'currentPage': '9'} 
+2024-07-19 01:51:02,645: About to request page 10 
+2024-07-19 01:51:18,417: {'totalPages': '463', 'currentPage': '10'} 
+2024-07-19 01:51:18,418: About to request page 11 
+2024-07-19 01:51:33,978: {'totalPages': '463', 'currentPage': '11'} 
+2024-07-19 01:51:33,979: About to request page 12 
+2024-07-19 01:51:49,654: {'totalPages': '463', 'currentPage': '12'} 
+2024-07-19 01:51:49,654: About to request page 13 
+2024-07-19 01:52:05,808: {'totalPages': '463', 'currentPage': '13'} 
+2024-07-19 01:52:05,808: About to request page 14 
+2024-07-19 01:52:22,222: {'totalPages': '463', 'currentPage': '14'} 
+2024-07-19 01:52:22,223: About to request page 15 
+2024-07-19 01:52:40,324: {'totalPages': '463', 'currentPage': '15'} 
+2024-07-19 01:52:40,325: About to request page 16 
+2024-07-19 01:53:00,007: {'totalPages': '463', 'currentPage': '16'} 
+2024-07-19 01:53:00,008: About to request page 17 
+2024-07-19 01:53:21,805: {'totalPages': '463', 'currentPage': '17'} 
+2024-07-19 01:53:21,805: About to request page 18 
+2024-07-19 01:53:38,603: {'totalPages': '463', 'currentPage': '18'} 
+2024-07-19 01:53:38,603: About to request page 19 
+2024-07-19 01:53:54,063: {'totalPages': '463', 'currentPage': '19'} 
+2024-07-19 01:53:54,063: About to request page 20 
+2024-07-19 01:54:08,816: {'totalPages': '463', 'currentPage': '20'} 
+2024-07-19 01:54:08,817: About to request page 21 
+2024-07-19 01:54:25,304: {'totalPages': '463', 'currentPage': '21'} 
+2024-07-19 01:54:25,304: About to request page 22 
+2024-07-19 01:54:43,518: {'totalPages': '463', 'currentPage': '22'} 
+2024-07-19 01:54:43,518: About to request page 23 
+2024-07-19 01:55:02,662: {'totalPages': '463', 'currentPage': '23'} 
+2024-07-19 01:55:02,663: About to request page 24 
+2024-07-19 01:55:23,041: Importing Transactions from Invenda API 
+2024-07-19 01:55:23,041: Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4'] 
+2024-07-19 01:55:23,041: Starting process at: 2024-07-19 01:55:23 
+2024-07-19 01:55:23,041: ____________________________________________________________________________________________________ 
+2024-07-19 01:55:23,043: processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4 
+2024-07-19 01:55:23,043: ====================================================================================================== 
+2024-07-19 01:55:23,043: requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4 
+2024-07-19 01:55:30,468: Importing Transactions from Invenda API 
+2024-07-19 01:55:30,468: Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4'] 
+2024-07-19 01:55:30,468: Starting process at: 2024-07-19 01:55:30 
+2024-07-19 01:55:30,468: ____________________________________________________________________________________________________ 
+2024-07-19 01:55:30,470: processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4 
+2024-07-19 01:55:30,470: ====================================================================================================== 
+2024-07-19 01:55:30,470: requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4 
+2024-07-19 01:55:49,656: {'totalPages': '463', 'currentPage': '4'} 
+2024-07-19 01:55:49,656: total pages to consume 463 
+2024-07-19 01:55:49,656: About to request page 5 
+2024-07-19 01:56:04,616: {'totalPages': '463', 'currentPage': '5'} 
+2024-07-19 01:56:04,616: About to request page 6 
+2024-07-19 01:56:19,568: {'totalPages': '463', 'currentPage': '6'} 
+2024-07-19 01:56:19,568: About to request page 7 
+2024-07-19 01:56:34,313: {'totalPages': '463', 'currentPage': '7'} 
+2024-07-19 01:56:34,313: About to request page 8 
+2024-07-19 01:56:48,650: {'totalPages': '463', 'currentPage': '8'} 
+2024-07-19 01:56:48,650: About to request page 9 
+2024-07-19 01:57:03,750: {'totalPages': '463', 'currentPage': '9'} 
+2024-07-19 01:57:03,750: About to request page 10 
+2024-07-19 01:57:22,542: {'totalPages': '463', 'currentPage': '10'} 
+2024-07-19 01:57:22,542: About to request page 11 
+2024-07-19 01:57:41,758: {'totalPages': '463', 'currentPage': '11'} 
+2024-07-19 01:57:41,758: About to request page 12 
+2024-07-19 01:57:58,586: {'totalPages': '463', 'currentPage': '12'} 
+2024-07-19 01:57:58,587: About to request page 13 
+2024-07-19 01:58:13,443: {'totalPages': '463', 'currentPage': '13'} 
+2024-07-19 01:58:13,443: About to request page 14 
