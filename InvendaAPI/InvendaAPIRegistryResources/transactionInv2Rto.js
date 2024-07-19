@@ -31,7 +31,7 @@ function transform(mc) {
 
 			if (inputroot.result.data[i_data].transactionMetrics.revenueInfo.revenue !== undefined) {
  				 var revenue = inputroot.result.data[i_data].transactionMetrics.revenueInfo.revenue;
-  			}else { var revenue = "" }
+  			}else { var revenue = 0 }
   			
   			if (inputroot.result.data[i_data].paymentDetails.paymentMethod !== undefined) {
  				 var paymentMethod = inputroot.result.data[i_data].paymentDetails.paymentMethod;
@@ -60,7 +60,7 @@ function transform(mc) {
 				reviews : "",
 				data1_flx : inputroot.result.data[i_data].transactionState,
 				data2_flx : inputroot.result.data[i_data].startMethod,
-				data3_flx : revenue,
+				data3_flx : revenue.toString(),
 				data4_flx : paymentMethod,
 				data5_flx : "",
     			data6_flx : inputroot.result.data[i_data].id,

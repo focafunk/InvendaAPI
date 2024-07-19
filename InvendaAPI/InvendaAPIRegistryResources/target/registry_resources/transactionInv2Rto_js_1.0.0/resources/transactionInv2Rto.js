@@ -29,6 +29,14 @@ function transform(mc) {
 			const start_date = new Date(inputroot.result.data[i_data].startedAt);
 			const end_date = new Date(inputroot.result.data[i_data].endedAt);
 
+			if (inputroot.result.data[i_data].transactionMetrics.revenueInfo.revenue !== undefined) {
+ 				 var revenue = inputroot.result.data[i_data].transactionMetrics.revenueInfo.revenue;
+  			}else { var revenue = 0 }
+  			
+  			if (inputroot.result.data[i_data].paymentDetails.paymentMethod !== undefined) {
+ 				 var paymentMethod = inputroot.result.data[i_data].paymentDetails.paymentMethod;
+  			}else { var paymentMethod = "" }
+  			
     		outputmsg._post_rawprice_batch_req._post_rawprice.push({
       			rere_id : "1",
     			upc : productSelectionHistory.productId,
@@ -50,10 +58,10 @@ function transform(mc) {
 				sponsored : "",
 				stars : "",
 				reviews : "",
-				data1_flx : "",
-				data2_flx : "",
-				data3_flx : "",
-				data4_flx : "",
+				data1_flx : inputroot.result.data[i_data].transactionState,
+				data2_flx : inputroot.result.data[i_data].startMethod,
+				data3_flx : revenue.toString(),
+				data4_flx : paymentMethod,
 				data5_flx : "",
     			data6_flx : inputroot.result.data[i_data].id,
     		});
