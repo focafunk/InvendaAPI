@@ -2505,3 +2505,245 @@ INFO:__main__:About to request page 6
 INFO:__main__:About to request page 7
 INFO:__main__:About to request page 8
 INFO:__main__:About to request page 9
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00']
+INFO:__main__:Starting process at: 2024-07-18 13:52:06
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00']
+INFO:__main__:Starting process at: 2024-07-18 13:55:15
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=1
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00']
+INFO:__main__:Starting process at: 2024-07-18 13:56:23
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=1
+INFO:__main__:{'totalPages': '463', 'currentPage': '1'}
+INFO:__main__:total pages to consume 463
+INFO:__main__:About to request page 2
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 13:57:11
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:{'totalPages': '463', 'currentPage': '4'}
+INFO:__main__:total pages to consume 463
+INFO:__main__:About to request page 5
+INFO:__main__:About to request page 6
+INFO:__main__:About to request page 7
+INFO:__main__:About to request page 8
+INFO:__main__:About to request page 9
+INFO:__main__:About to request page 10
+INFO:__main__:About to request page 11
+INFO:__main__:About to request page 12
+INFO:__main__:About to request page 13
+INFO:__main__:About to request page 14
+INFO:__main__:About to request page 15
+INFO:__main__:About to request page 16
+INFO:__main__:About to request page 17
+INFO:__main__:About to request page 18
+INFO:__main__:About to request page 19
+INFO:__main__:About to request page 20
+INFO:__main__:About to request page 21
+INFO:__main__:About to request page 22
+INFO:__main__:About to request page 23
+INFO:__main__:About to request page 24
+INFO:__main__:About to request page 25
+INFO:__main__:About to request page 26
+INFO:__main__:About to request page 27
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 14:03:52
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:Importing Transactions from Invenda API
+INFO:__main__:Requested from and to dates ['2024-05-06T00:00:00', '2024-05-13T00:00:00', '4']
+INFO:__main__:Starting process at: 2024-07-18 14:04:41
+INFO:__main__:____________________________________________________________________________________________________
+INFO:__main__:processsing from 2024-05-06T00:00:00 to 2024-05-07T00:00:00 from page 4
+INFO:__main__:======================================================================================================
+INFO:__main__:requesting url http://192.168.0.176:8290/invenda/consume/transactions?dateFrom=2024-05-06T00:00:00.000Z&dateTo=2024-05-07T00:00:00.000Z&page=4
+INFO:__main__:{'totalPages': '463', 'currentPage': '4'}
+INFO:__main__:total pages to consume 463
+INFO:__main__:About to request page 5
+INFO:__main__:About to request page 6
+INFO:__main__:About to request page 7
+INFO:__main__:About to request page 8
+INFO:__main__:About to request page 9
+INFO:__main__:About to request page 10
+INFO:__main__:About to request page 11
+INFO:__main__:About to request page 12
+INFO:__main__:About to request page 13
+INFO:__main__:About to request page 14
+INFO:__main__:About to request page 15
+INFO:__main__:About to request page 16
+INFO:__main__:About to request page 17
+INFO:__main__:About to request page 18
+INFO:__main__:About to request page 19
+INFO:__main__:About to request page 20
+INFO:__main__:About to request page 21
+INFO:__main__:About to request page 22
+INFO:__main__:About to request page 23
+INFO:__main__:About to request page 24
+INFO:__main__:About to request page 25
+INFO:__main__:About to request page 26
+INFO:__main__:About to request page 27
+INFO:__main__:About to request page 28
+INFO:__main__:About to request page 29
+INFO:__main__:About to request page 30
+INFO:__main__:About to request page 31
+INFO:__main__:About to request page 32
+INFO:__main__:About to request page 33
+INFO:__main__:About to request page 34
+INFO:__main__:About to request page 35
+INFO:__main__:About to request page 36
+INFO:__main__:About to request page 37
+INFO:__main__:About to request page 38
+INFO:__main__:About to request page 39
+INFO:__main__:About to request page 40
+INFO:__main__:About to request page 41
+INFO:__main__:About to request page 42
+INFO:__main__:About to request page 43
+INFO:__main__:About to request page 44
+INFO:__main__:About to request page 45
+INFO:__main__:About to request page 46
+INFO:__main__:About to request page 47
+INFO:__main__:About to request page 48
+INFO:__main__:About to request page 49
+INFO:__main__:About to request page 50
+INFO:__main__:About to request page 51
+INFO:__main__:About to request page 52
+INFO:__main__:About to request page 53
+INFO:__main__:About to request page 54
+INFO:__main__:About to request page 55
+INFO:__main__:About to request page 56
+INFO:__main__:About to request page 57
+INFO:__main__:About to request page 58
+INFO:__main__:About to request page 59
+INFO:__main__:About to request page 60
+INFO:__main__:About to request page 61
+INFO:__main__:About to request page 62
+INFO:__main__:About to request page 63
+INFO:__main__:About to request page 64
+INFO:__main__:About to request page 65
+INFO:__main__:About to request page 66
+INFO:__main__:About to request page 67
+INFO:__main__:About to request page 68
+INFO:__main__:About to request page 69
+INFO:__main__:About to request page 70
+INFO:__main__:About to request page 71
+INFO:__main__:About to request page 72
+INFO:__main__:About to request page 73
+INFO:__main__:About to request page 74
+INFO:__main__:About to request page 75
+INFO:__main__:About to request page 76
+INFO:__main__:About to request page 77
+INFO:__main__:About to request page 78
+INFO:__main__:About to request page 79
+INFO:__main__:About to request page 80
+INFO:__main__:About to request page 81
+INFO:__main__:About to request page 82
+INFO:__main__:About to request page 83
+INFO:__main__:About to request page 84
+INFO:__main__:About to request page 85
+INFO:__main__:About to request page 86
+INFO:__main__:About to request page 87
+INFO:__main__:About to request page 88
+INFO:__main__:About to request page 89
+INFO:__main__:About to request page 90
+INFO:__main__:About to request page 91
+INFO:__main__:About to request page 92
+INFO:__main__:About to request page 93
+INFO:__main__:About to request page 94
+INFO:__main__:About to request page 95
+INFO:__main__:About to request page 96
+INFO:__main__:About to request page 97
+INFO:__main__:About to request page 98
+INFO:__main__:About to request page 99
+INFO:__main__:About to request page 100
+INFO:__main__:About to request page 101
+INFO:__main__:About to request page 102
+INFO:__main__:About to request page 103
+INFO:__main__:About to request page 104
+INFO:__main__:About to request page 105
+INFO:__main__:About to request page 106
+INFO:__main__:About to request page 107
+INFO:__main__:About to request page 108
+INFO:__main__:About to request page 109
+INFO:__main__:About to request page 110
+INFO:__main__:About to request page 111
+INFO:__main__:About to request page 112
+INFO:__main__:About to request page 113
+INFO:__main__:About to request page 114
+INFO:__main__:About to request page 115
+INFO:__main__:About to request page 116
+INFO:__main__:About to request page 117
+INFO:__main__:About to request page 118
+INFO:__main__:About to request page 119
+INFO:__main__:About to request page 120
+INFO:__main__:About to request page 121
+INFO:__main__:About to request page 122
+INFO:__main__:About to request page 123
+INFO:__main__:About to request page 124
+INFO:__main__:About to request page 125
+INFO:__main__:About to request page 126
+INFO:__main__:About to request page 127
+INFO:__main__:About to request page 128
+INFO:__main__:About to request page 129
+INFO:__main__:About to request page 130
+INFO:__main__:About to request page 131
+INFO:__main__:About to request page 132
+INFO:__main__:About to request page 133
+INFO:__main__:About to request page 134
+INFO:__main__:About to request page 135
+INFO:__main__:About to request page 136
+INFO:__main__:About to request page 137
+INFO:__main__:About to request page 138
+INFO:__main__:About to request page 139
+INFO:__main__:About to request page 140
+INFO:__main__:About to request page 141
+INFO:__main__:About to request page 142
+INFO:__main__:About to request page 143
+INFO:__main__:About to request page 144
+INFO:__main__:About to request page 145
+INFO:__main__:About to request page 146
+INFO:__main__:About to request page 147
+INFO:__main__:About to request page 148
+INFO:__main__:About to request page 149
+INFO:__main__:About to request page 150
+INFO:__main__:About to request page 151
+INFO:__main__:About to request page 152
+INFO:__main__:About to request page 153
+INFO:__main__:About to request page 154
+INFO:__main__:About to request page 155
+INFO:__main__:About to request page 156
+INFO:__main__:About to request page 157
+INFO:__main__:About to request page 158
+INFO:__main__:About to request page 159
+INFO:__main__:About to request page 160
+INFO:__main__:About to request page 161
+INFO:__main__:About to request page 162
+INFO:__main__:About to request page 163
+INFO:__main__:About to request page 164
+INFO:__main__:About to request page 165
+INFO:__main__:About to request page 166
+INFO:__main__:About to request page 167
+INFO:__main__:About to request page 168
+INFO:__main__:About to request page 169
+INFO:__main__:About to request page 170
+INFO:__main__:About to request page 171
+INFO:__main__:About to request page 172
+INFO:__main__:About to request page 173
+INFO:__main__:About to request page 174
+INFO:__main__:About to request page 175
+INFO:__main__:About to request page 176
+INFO:__main__:About to request page 177
